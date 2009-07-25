@@ -2,7 +2,6 @@
 import os
 import yaml
 import classes
-import __builtin__
 
 ##friendly shortcuts
 #nature = classes.Nature
