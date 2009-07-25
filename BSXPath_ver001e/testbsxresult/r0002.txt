@@ -1,0 +1,587 @@
+[0002]
+Basic Functional Test
+
+No.1
+expr  : .//blockquote/*
+time  : 0.015000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <font id=n17 class=14>
+expect: br p font
+judge : OK (-)
+
+No.2
+expr  : .//blockquote/child::*
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <font id=n17 class=14>
+expect: br p font
+judge : OK (-)
+
+No.3
+expr  : .//blockquote/parent::*
+time  : 0.000000 sec
+result: <center id=n5 class=22>
+expect: center
+judge : OK (-)
+
+No.4
+expr  : .//blockquote/descendant::*
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: br p del ins font
+judge : OK (-)
+
+No.5
+expr  : .//blockquote/descendant-or-self::*
+time  : 0.000000 sec
+result: <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: blockquote br p del ins font
+judge : OK (-)
+
+No.6
+expr  : .//blockquote/ancestor::*
+time  : 0.000000 sec
+result: <html> <body> <div id=n1 class=26> <center id=n5 class=22>
+expect: html body div center
+judge : OK (-)
+
+No.7
+expr  : .//blockquote/ancestor-or-self::*
+time  : 0.000000 sec
+result: <html> <body> <div id=n1 class=26> <center id=n5 class=22> <blockquote id=n12 class=15>
+expect: html body div center blockquote
+judge : OK (-)
+
+No.8
+expr  : .//blockquote/following-sibling::*
+time  : 0.000000 sec
+result: <h3 id=n18 class=18> <h4 id=n21 class=21>
+expect: h3 h4
+judge : OK (-)
+
+No.9
+expr  : .//blockquote/preceding-sibling::*
+time  : 0.015000 sec
+result: <h1 id=n6 class=6> <h2 id=n9 class=9>
+expect: h1 h2
+judge : OK (-)
+
+No.10
+expr  : .//blockquote/following::*
+time  : 0.000000 sec
+result: <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.11
+expr  : .//blockquote/preceding::*
+time  : 0.016000 sec
+result: <head> <title> <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8>
+expect: head title dl dt dd h1 em strong h2 b s
+judge : OK (-)
+
+No.12
+expr  : .//blockquote/self::*
+time  : 0.000000 sec
+result: <blockquote id=n12 class=15>
+expect: blockquote
+judge : OK (-)
+
+No.13
+expr  : .//blockquote/attribute::id/parent::*
+time  : 0.016000 sec
+result: <blockquote id=n12 class=15>
+expect: blockquote
+judge : OK (-)
+
+No.14
+expr  : .//blockquote/@id/parent::*
+time  : 0.000000 sec
+result: <blockquote id=n12 class=15>
+expect: blockquote
+judge : OK (-)
+
+No.15
+expr  : .//*[blockquote]
+time  : 0.015000 sec
+result: <center id=n5 class=22>
+expect: center
+judge : OK (-)
+
+No.16
+expr  : .//*[child::blockquote]
+time  : 0.000000 sec
+result: <center id=n5 class=22>
+expect: center
+judge : OK (-)
+
+No.17
+expr  : .//*[parent::blockquote]
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <font id=n17 class=14>
+expect: br p font
+judge : OK (-)
+
+No.18
+expr  : .//*[descendant::blockquote]
+time  : 0.032000 sec
+result: <div id=n1 class=26> <center id=n5 class=22>
+expect: div center
+judge : OK (-)
+
+No.19
+expr  : .//*[descendant-or-self::blockquote]
+time  : 0.015000 sec
+result: <div id=n1 class=26> <center id=n5 class=22> <blockquote id=n12 class=15>
+expect: div center blockquote
+judge : OK (-)
+
+No.20
+expr  : .//*[ancestor::blockquote]
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: br p del ins font
+judge : OK (-)
+
+No.21
+expr  : .//*[ancestor-or-self::blockquote]
+time  : 0.015000 sec
+result: <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: blockquote br p del ins font
+judge : OK (-)
+
+No.22
+expr  : .//*[following-sibling::blockquote]
+time  : 0.015000 sec
+result: <h1 id=n6 class=6> <h2 id=n9 class=9>
+expect: h1 h2
+judge : OK (-)
+
+No.23
+expr  : .//*[preceding-sibling::blockquote]
+time  : 0.016000 sec
+result: <h3 id=n18 class=18> <h4 id=n21 class=21>
+expect: h3 h4
+judge : OK (-)
+
+No.24
+expr  : .//*[following::blockquote]
+time  : 0.047000 sec
+result: <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8>
+expect: dl dt dd h1 em strong h2 b s
+judge : OK (-)
+
+No.25
+expr  : .//*[preceding::blockquote]
+time  : 0.047000 sec
+result: <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.26
+expr  : .//*[self::blockquote]
+time  : 0.000000 sec
+result: <blockquote id=n12 class=15>
+expect: blockquote
+judge : OK (-)
+
+No.27
+expr  : .//*[@id]
+time  : 0.000000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <center id=n5 class=22> <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8> <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: div dl dt dd center h1 em strong h2 b s blockquote br p del ins font h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.28
+expr  : .//*[attribute::id]
+time  : 0.000000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <center id=n5 class=22> <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8> <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: div dl dt dd center h1 em strong h2 b s blockquote br p del ins font h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.29
+expr  : .//blockquote/text()
+time  : 0.000000 sec
+result: \n \n     blockquoteText1:\n      \n     blockquoteText2\n      \n \n \n
+expect: text('\n     '):opera:gecko:applewebkit text(' '):netfront text('\n     blockquoteText1:\n     '):opera:gecko:applewebkit text('blockquoteText1: '):ie text(' blockquoteText1: '):netfront text('\n     blockquoteText2\n     '):opera:gecko:applewebkit text('blockquoteText2 '):ie text(' blockquoteText2 '):netfront text('\n     '):opera text('\n     '):opera text('\n     \n     '):gecko text('\n          '):applewebkit text('\n    '):opera:gecko:applewebkit text(' '):ie:netfront text(' '):netfront
+ (*) node number error: 6 vs 5
+judge : NG (text("\n") text("\n     blockquoteText1:\n     ") text("\n     blockquoteText2\n     ") text("\n") text("\n") text("\n"))
+
+No.30
+expr  : .//blockquote/comment()
+time  : 0.000000 sec
+result: <!--blockquoteComment-->
+expect: comment('blockquoteComment'):opera:gecko:applewebkit3:ie:netfront comment(' hoge'):ie
+judge : OK (-)
+
+No.31
+expr  : .//blockquote/processing-instruction()
+time  : 0.000000 sec
+result: <?pi hoge ??>
+expect: processing-instruction(pi='hoge '):opera92 processing-instruction(pi=' hoge '):opera95
+judge : OK (-)
+
+No.32
+expr  : .//blockquote/processing-instruction("pi")
+time  : 0.000000 sec
+result: <?pi hoge ??>
+expect: processing-instruction(pi='hoge '):opera92 processing-instruction(pi=' hoge '):opera95
+judge : OK (-)
+
+No.33
+expr  : .//blockquote/node()
+time  : 0.000000 sec
+result: \n <!--blockquoteComment--> \n     blockquoteText1:\n      <br id=n13 class=10> \n     blockquoteText2\n      <p id=n14 class=13> \n <?pi hoge ??> \n <font id=n17 class=14> \n
+expect: text('\n     '):opera:gecko:applewebkit text(' '):netfront comment('blockquoteComment'):opera:gecko:ie:applewebkit3:netfront text('\n     blockquoteText1:\n     '):opera:gecko:applewebkit text('blockquoteText1: '):ie text(' blockquoteText1: '):netfront br text('\n     blockquoteText2\n     '):opera:gecko:applewebkit text('blockquoteText2 '):ie text(' blockquoteText2 '):netfront p text('\n     '):opera comment(' hoge'):ie processing-instruction(pi='hoge '):opera92 processing-instruction(pi=' hoge '):opera95 text('\n     '):opera text('\n     \n     '):gecko text('\n          '):applewebkit text(' '):netfront font text('\n    '):opera:gecko:applewebkit text(' '):ie:netfront
+ (*) node number error: 11 vs 10
+judge : NG (text("\n") comment("blockquoteComment") text("\n     blockquoteText1:\n     ") br text("\n     blockquoteText2\n     ") p text("\n") processing-instruction(pi=" hoge ") text("\n") font text("\n"))
+
+No.34
+expr  : .//blockquote/p
+time  : 0.000000 sec
+result: <p id=n14 class=13>
+expect: p
+judge : OK (-)
+
+No.35
+expr  : .//blockquote/*
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <font id=n17 class=14>
+expect: br p font
+judge : OK (-)
+
+No.36
+expr  : .//*[child::* and preceding::font]
+time  : 0.063000 sec
+result: <h3 id=n18 class=18> <h4 id=n21 class=21> <span id=n24 class=25>
+expect: h3 h4 span
+judge : OK (-)
+
+No.37
+expr  : .//*[not(child::*) and preceding::font]
+time  : 0.062000 sec
+result: <dfn id=n19 class=16> <a id=n20 class=17> <sub id=n22 class=19> <sup id=n23 class=20> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: dfn a sub sup acronym q
+judge : OK (-)
+
+No.38
+expr  : .//*[preceding::blockquote or following::blockquote]
+time  : 0.109000 sec
+result: <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: dl dt dd h1 em strong h2 b s h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.39
+expr  : .//blockquote/ancestor::* | .//blockquote/descendant::*
+time  : 0.000000 sec
+result: <html> <body> <div id=n1 class=26> <center id=n5 class=22> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: html body div center br p del ins font
+judge : OK (-)
+
+No.40
+expr  : .//*[.="sub"]
+time  : 0.016000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.41
+expr  : .//*[@title > 12 and @class < 15]
+time  : 0.032000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14>
+expect: br p del ins font
+judge : OK (-)
+
+No.42
+expr  : .//*[@title != @class]
+time  : 0.015000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <dt id=n3 class=1> <dd id=n4 class=2> <center id=n5 class=22> <em id=n7 class=4> <strong id=n8 class=5> <b id=n10 class=7> <s id=n11 class=8> <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14> <dfn id=n19 class=16> <a id=n20 class=17> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: div dl dt dd center em strong b s blockquote br p del ins font dfn a sub sup span acronym q
+judge : OK (-)
+
+No.43
+expr  : .//*[((@class * @class + @title * @title) div (@class + @title)) > ((@class - @title) * (@class - @title))]
+time  : 0.031000 sec
+result: <dl id=n2 class=3> <h1 id=n6 class=6> <h2 id=n9 class=9> <s id=n11 class=8> <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <font id=n17 class=14> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: dl h1 h2 s blockquote br p font h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.44
+expr  : .//*[@title mod 2 = 0]
+time  : 0.016000 sec
+result: <dl id=n2 class=3> <dd id=n4 class=2> <h1 id=n6 class=6> <strong id=n8 class=5> <b id=n10 class=7> <blockquote id=n12 class=15> <p id=n14 class=13> <ins id=n16 class=12> <h3 id=n18 class=18> <a id=n20 class=17> <sub id=n22 class=19> <span id=n24 class=25> <q id=n26 class=24>
+expect: dl dd h1 strong b blockquote p ins h3 a sub span q
+judge : OK (-)
+
+No.45
+expr  : .//blockquote/child::*[last()]
+time  : 0.000000 sec
+result: <font id=n17 class=14>
+expect: font
+judge : OK (-)
+
+No.46
+expr  : .//blockquote/descendant::*[position() < 4]
+time  : 0.000000 sec
+result: <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11>
+expect: br p del
+judge : OK (-)
+
+No.47
+expr  : id(.//font/@face)
+time  : 0.000000 sec
+result: <strong id=n8 class=5> <q id=n26 class=24>
+expect: strong q
+judge : OK (-)
+
+No.48
+expr  : .//*[name(.) = "sub"]
+time  : 0.000000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.49
+expr  : .//*[name() = "sub"]
+time  : 0.016000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.50
+expr  : .//blockquote/child::*[2]
+time  : 0.000000 sec
+result: <p id=n14 class=13>
+expect: p
+judge : OK (-)
+
+No.51
+expr  : .//blockquote/descendant::*[4]
+time  : 0.000000 sec
+result: <ins id=n16 class=12>
+expect: ins
+judge : OK (-)
+
+No.52
+expr  : .//blockquote/descendant-or-self::*[4]
+time  : 0.000000 sec
+result: <del id=n15 class=11>
+expect: del
+judge : OK (-)
+
+No.53
+expr  : .//blockquote/ancestor::*[2]
+time  : 0.000000 sec
+result: <div id=n1 class=26>
+expect: div
+judge : OK (-)
+
+No.54
+expr  : .//blockquote/ancestor-or-self::*[2]
+time  : 0.000000 sec
+result: <center id=n5 class=22>
+expect: center
+judge : OK (-)
+
+No.55
+expr  : .//blockquote/following-sibling::*[1]
+time  : 0.000000 sec
+result: <h3 id=n18 class=18>
+expect: h3
+judge : OK (-)
+
+No.56
+expr  : .//blockquote/preceding-sibling::*[1]
+time  : 0.015000 sec
+result: <h2 id=n9 class=9>
+expect: h2
+judge : OK (-)
+
+No.57
+expr  : .//blockquote/following::*[4]
+time  : 0.000000 sec
+result: <h4 id=n21 class=21>
+expect: h4
+judge : OK (-)
+
+No.58
+expr  : .//blockquote/preceding::*[4]
+time  : 0.000000 sec
+result: <strong id=n8 class=5>
+expect: strong
+judge : OK (-)
+
+No.59
+expr  : .//*[starts-with(.,"s")]
+time  : 0.016000 sec
+result: <strong id=n8 class=5> <s id=n11 class=8> <sub id=n22 class=19> <sup id=n23 class=20>
+expect: strong s h4:ie sub sup
+judge : OK (-)
+
+No.60
+expr  : .//*[string(@title - 1) = "0"]
+time  : 0.016000 sec
+result: <div id=n1 class=26>
+expect: div
+judge : OK (-)
+
+No.61
+expr  : .//*[string() = "sub"]
+time  : 0.016000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.62
+expr  : .//*[string(.) = "sub"]
+time  : 0.016000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.63
+expr  : .//*[normalize-space(concat(.,..)) = "sub sub sup"]
+time  : 0.062000 sec
+result: <sub id=n22 class=19>
+expect: sub:opera:gecko:applewebkit:netfront
+judge : OK (-)
+
+No.64
+expr  : .//sub[concat(.,..) = "subsub sup "]
+time  : 0.000000 sec
+result: 
+expect: sub:ie
+judge : OK (-)
+
+No.65
+expr  : .//node()[normalize-space(concat(.,..,../..)) = "bb b s"]
+time  : 0.328000 sec
+result: b
+expect: text('b'):opera:gecko:applewebkit:netfront
+judge : OK (-)
+
+No.66
+expr  : .//node()[concat(.,..,../..) = "bbb s "]
+time  : 0.328000 sec
+result: 
+expect: text('b'):ie
+judge : OK (-)
+
+No.67
+expr  : .//*[substring-before(.,"u") = "s"]
+time  : 0.015000 sec
+result: <sub id=n22 class=19> <sup id=n23 class=20>
+expect: h4:ie sub sup
+judge : OK (-)
+
+No.68
+expr  : .//*[substring-after(.,"on") = "t"]
+time  : 0.016000 sec
+result: <font id=n17 class=14>
+expect: font
+judge : OK (-)
+
+No.69
+expr  : .//*[substring(.,2,1) = "u"]
+time  : 0.016000 sec
+result: <sub id=n22 class=19> <sup id=n23 class=20>
+expect: h4:ie sub sup
+judge : OK (-)
+
+No.70
+expr  : .//*[substring(.,2) = "up"]
+time  : 0.015000 sec
+result: <sup id=n23 class=20>
+expect: sup
+judge : OK (-)
+
+No.71
+expr  : .//*[contains(.,"b")]
+time  : 0.015000 sec
+result: <div id=n1 class=26> <center id=n5 class=22> <h2 id=n9 class=9> <b id=n10 class=7> <blockquote id=n12 class=15> <h4 id=n21 class=21> <sub id=n22 class=19>
+expect: div center h2 b blockquote h4 sub
+judge : OK (-)
+
+No.72
+expr  : .//*[name() != 'dt' and name() != 'dd' and string-length() = 3]
+time  : 0.016000 sec
+result: <del id=n15 class=11> <ins id=n16 class=12> <dfn id=n19 class=16> <sub id=n22 class=19> <sup id=n23 class=20>
+expect: del ins dfn sub sup
+judge : OK (-)
+
+No.73
+expr  : .//*[string-length(normalize-space(.)) = 3]
+time  : 0.016000 sec
+result: <h2 id=n9 class=9> <del id=n15 class=11> <ins id=n16 class=12> <dfn id=n19 class=16> <sub id=n22 class=19> <sup id=n23 class=20>
+expect: h2 del ins dfn sub sup
+judge : OK (-)
+
+No.74
+expr  : .//*[.=translate(normalize-space("  s  u  b  ")," ","")]
+time  : 0.015000 sec
+result: <sub id=n22 class=19>
+expect: sub
+judge : OK (-)
+
+No.75
+expr  : .//*[normalize-space()="q"]
+time  : 0.015000 sec
+result: <q id=n26 class=24>
+expect: q
+judge : OK (-)
+
+No.76
+expr  : .//*[boolean(@title - 1) = false()]
+time  : 0.000000 sec
+result: <div id=n1 class=26>
+expect: div
+judge : OK (-)
+
+No.77
+expr  : .//*[not(@title - 1) = true()]
+time  : 0.000000 sec
+result: <div id=n1 class=26>
+expect: div
+judge : OK (-)
+
+No.78
+expr  : .//*[number(@title) < number(@class)]
+time  : 0.000000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <center id=n5 class=22> <blockquote id=n12 class=15> <span id=n24 class=25>
+expect: div dl center blockquote span
+judge : OK (-)
+
+No.79
+expr  : .//*[sum(ancestor::*/@title) < sum(descendant::*/@title)]
+time  : 0.047000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <center id=n5 class=22> <h1 id=n6 class=6> <h2 id=n9 class=9> <blockquote id=n12 class=15> <p id=n14 class=13> <h3 id=n18 class=18> <h4 id=n21 class=21> <span id=n24 class=25>
+expect: div dl center h1 h2 blockquote p h3 h4 span
+judge : OK (-)
+
+No.80
+expr  : .//*[floor(@title div @class) = 1]
+time  : 0.016000 sec
+result: <h1 id=n6 class=6> <em id=n7 class=4> <strong id=n8 class=5> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: h1 em strong h2 b s br p del ins font h3 dfn a h4 sub sup acronym q
+judge : OK (-)
+
+No.81
+expr  : .//*[ceiling(@title div @class) = 1]
+time  : 0.000000 sec
+result: <div id=n1 class=26> <dl id=n2 class=3> <center id=n5 class=22> <h1 id=n6 class=6> <h2 id=n9 class=9> <blockquote id=n12 class=15> <h3 id=n18 class=18> <h4 id=n21 class=21> <span id=n24 class=25>
+expect: div dl center h1 h2 blockquote h3 h4 span
+judge : OK (-)
+
+No.82
+expr  : .//*[round(@title div @class) = 1]
+time  : 0.016000 sec
+result: <dl id=n2 class=3> <h1 id=n6 class=6> <h2 id=n9 class=9> <b id=n10 class=7> <s id=n11 class=8> <blockquote id=n12 class=15> <br id=n13 class=10> <p id=n14 class=13> <del id=n15 class=11> <ins id=n16 class=12> <font id=n17 class=14> <h3 id=n18 class=18> <dfn id=n19 class=16> <a id=n20 class=17> <h4 id=n21 class=21> <sub id=n22 class=19> <sup id=n23 class=20> <span id=n24 class=25> <acronym id=n25 class=23> <q id=n26 class=24>
+expect: dl h1 h2 b s blockquote br p del ins font h3 dfn a h4 sub sup span acronym q
+judge : OK (-)
+
+No.83
+expr  : /..
+time  : 0.000000 sec
+result: 
+expect: (none)
+judge : OK (-)
+
+

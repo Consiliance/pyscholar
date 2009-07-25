@@ -1,0 +1,116 @@
+[0007]
+Ancestor Test
+
+No.1
+expr  : id("t")/ancestor::*
+time  : 0.000000 sec
+result: <html> <body>
+expect: html body
+judge : OK (-)
+
+No.2
+expr  : id("t")/ancestor::node()
+time  : 0.016000 sec
+result: <[document]> <html> <body>
+expect: document() html body
+judge : OK (-)
+
+No.3
+expr  : id("t")/ancestor-or-self::*
+time  : 0.000000 sec
+result: <html> <body> <h1 id=t>
+expect: html body h1
+judge : OK (-)
+
+No.4
+expr  : id("t")/ancestor-or-self::node()
+time  : 0.000000 sec
+result: <[document]> <html> <body> <h1 id=t>
+expect: document() html body h1
+judge : OK (-)
+
+No.5
+expr  : id("t")/ancestor-or-self::node()/ancestor::*
+time  : 0.000000 sec
+result: <html> <body>
+expect: html body
+judge : OK (-)
+
+No.6
+expr  : id("t")/ancestor-or-self::node()/ancestor::node()
+time  : 0.000000 sec
+result: <[document]> <html> <body>
+expect: document() html body
+judge : OK (-)
+
+No.7
+expr  : id("t")/ancestor-or-self::node()/ancestor-or-self::*
+time  : 0.000000 sec
+result: <html> <body> <h1 id=t>
+expect: html body h1
+judge : OK (-)
+
+No.8
+expr  : id("t")/ancestor-or-self::node()/ancestor-or-self::node()
+time  : 0.015000 sec
+result: <[document]> <html> <body> <h1 id=t>
+expect: document() html body h1
+judge : OK (-)
+
+No.9
+expr  : id("t")/ancestor::*[1]
+time  : 0.000000 sec
+result: <body>
+expect: body
+judge : OK (-)
+
+No.10
+expr  : id("t")/ancestor::node()[1]
+time  : 0.000000 sec
+result: <body>
+expect: body
+judge : OK (-)
+
+No.11
+expr  : id("t")/ancestor-or-self::*[1]
+time  : 0.000000 sec
+result: <h1 id=t>
+expect: h1
+judge : OK (-)
+
+No.12
+expr  : id("t")/ancestor-or-self::node()[1]
+time  : 0.000000 sec
+result: <h1 id=t>
+expect: h1
+judge : OK (-)
+
+No.13
+expr  : id("t")/ancestor-or-self::node()/ancestor::*[1]
+time  : 0.000000 sec
+result: <html> <body>
+expect: html body
+judge : OK (-)
+
+No.14
+expr  : id("t")/ancestor-or-self::node()/ancestor::node()[1]
+time  : 0.000000 sec
+result: <[document]> <html> <body>
+expect: document() html body
+judge : OK (-)
+
+No.15
+expr  : id("t")/ancestor-or-self::node()/ancestor-or-self::*[1]
+time  : 0.000000 sec
+result: <html> <body> <h1 id=t>
+expect: html body h1
+judge : OK (-)
+
+No.16
+expr  : id("t")/ancestor-or-self::node()/ancestor-or-self::node()[1]
+time  : 0.000000 sec
+result: <[document]> <html> <body> <h1 id=t>
+expect: document() html body h1
+judge : OK (-)
+
+

@@ -1,0 +1,88 @@
+[0003]
+Sort and Merge Test
+
+No.1
+expr  : id("container")/*[1]
+time  : 0.000000 sec
+result: <li id=li-1>
+expect: li#li-1
+judge : OK (-)
+
+No.2
+expr  : id("container")/*[2]
+time  : 0.000000 sec
+result: <li id=li-2>
+expect: li#li-2
+judge : OK (-)
+
+No.3
+expr  : id("container")/*[3]
+time  : 0.000000 sec
+result: <li id=li-3>
+expect: li#li-3
+judge : OK (-)
+
+No.4
+expr  : id("container")/*[4]
+time  : 0.000000 sec
+result: <li id=li-4>
+expect: li#li-4
+judge : OK (-)
+
+No.5
+expr  : id("container")/*[3] | id("container")/*[4] | id("container")/*[2]  |id("container")/*[1]
+time  : 0.016000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4>
+expect: li#li-1 li#li-2 li#li-3 li#li-4
+judge : OK (-)
+
+No.6
+expr  : id("container")/*[4] | id("container")/*[2] | id("container")/*[4]  |id("container")/*[3]
+time  : 0.015000 sec
+result: <li id=li-2> <li id=li-3> <li id=li-4>
+expect: li#li-2 li#li-3 li#li-4
+judge : OK (-)
+
+No.7
+expr  : id("li-1 li-2 li-3 li-4")
+time  : 0.000000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4>
+expect: li#li-1 li#li-2 li#li-3 li#li-4
+judge : OK (-)
+
+No.8
+expr  : id("li-4 li-3 li-2 li-1")
+time  : 0.016000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4>
+expect: li#li-1 li#li-2 li#li-3 li#li-4
+judge : OK (-)
+
+No.9
+expr  : id("li-2 li-2 li-1 li-1")
+time  : 0.016000 sec
+result: <li id=li-1> <li id=li-2>
+expect: li#li-1 li#li-2
+judge : OK (-)
+
+No.10
+expr  : id("container")/* | id("container-0")/*
+time  : 0.015000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4> <li id=li-5> <li id=li-6> <li id=li-7> <li id=li-8>
+expect: li#li-1 li#li-2 li#li-3 li#li-4 li#li-5 li#li-6 li#li-7 li#li-8
+judge : OK (-)
+
+No.11
+expr  : id("container-0")/* | id("container")/*
+time  : 0.016000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4> <li id=li-5> <li id=li-6> <li id=li-7> <li id=li-8>
+expect: li#li-1 li#li-2 li#li-3 li#li-4 li#li-5 li#li-6 li#li-7 li#li-8
+judge : OK (-)
+
+No.12
+expr  : id("container-0")/* | id("container")/* | id("container-0")/*
+time  : 0.000000 sec
+result: <li id=li-1> <li id=li-2> <li id=li-3> <li id=li-4> <li id=li-5> <li id=li-6> <li id=li-7> <li id=li-8>
+expect: li#li-1 li#li-2 li#li-3 li#li-4 li#li-5 li#li-6 li#li-7 li#li-8
+judge : OK (-)
+
+

@@ -1,0 +1,172 @@
+[0006]
+Descendant Test
+
+No.1
+expr  : //*
+time  : 0.000000 sec
+result: <html> <head> <title> <body> <h1>
+expect: html head title body h1
+judge : OK (-)
+
+No.2
+expr  : //node()
+time  : 0.015000 sec
+result: <html> <head> <title> title <body> <h1> foo
+expect: html head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.3
+expr  : /descendant::*
+time  : 0.000000 sec
+result: <html> <head> <title> <body> <h1>
+expect: html head title body h1
+judge : OK (-)
+
+No.4
+expr  : /descendant::node()
+time  : 0.000000 sec
+result: <html> <head> <title> title <body> <h1> foo
+expect: html head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.5
+expr  : /descendant-or-self::*
+time  : 0.000000 sec
+result: <html> <head> <title> <body> <h1>
+expect: html head title body h1
+judge : OK (-)
+
+No.6
+expr  : /descendant-or-self::node()
+time  : 0.000000 sec
+result: <[document]> <html> <head> <title> title <body> <h1> foo
+expect: document() html head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.7
+expr  : //*//*
+time  : 0.000000 sec
+result: <head> <title> <body> <h1>
+expect: head title body h1
+judge : OK (-)
+
+No.8
+expr  : //node()//node()
+time  : 0.016000 sec
+result: <head> <title> title <body> <h1> foo
+expect: head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.9
+expr  : //*/descendant::*
+time  : 0.000000 sec
+result: <head> <title> <body> <h1>
+expect: head title body h1
+judge : OK (-)
+
+No.10
+expr  : //node()/descendant::node()
+time  : 0.015000 sec
+result: <head> <title> title <body> <h1> foo
+expect: head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.11
+expr  : //*/descendant-or-self::*
+time  : 0.000000 sec
+result: <html> <head> <title> <body> <h1>
+expect: html head title body h1
+judge : OK (-)
+
+No.12
+expr  : //node()/descendant-or-self::node()
+time  : 0.016000 sec
+result: <html> <head> <title> title <body> <h1> foo
+expect: html head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+No.13
+expr  : //*[1]
+time  : 0.000000 sec
+result: <html> <head> <title> <h1>
+expect: html head title h1
+judge : OK (-)
+
+No.14
+expr  : //node()[1]
+time  : 0.000000 sec
+result: <html> <head> <title> title <h1> foo
+expect: html head title text("title"):gecko:opera:applewebkit:netfront h1 text("foo")
+judge : OK (-)
+
+No.15
+expr  : /descendant::*[1]
+time  : 0.000000 sec
+result: <html>
+expect: html
+judge : OK (-)
+
+No.16
+expr  : /descendant::node()[1]
+time  : 0.000000 sec
+result: <html>
+expect: html
+judge : OK (-)
+
+No.17
+expr  : /descendant-or-self::*[1]
+time  : 0.000000 sec
+result: <html>
+expect: html
+judge : OK (-)
+
+No.18
+expr  : /descendant-or-self::node()[1]
+time  : 0.000000 sec
+result: <[document]>
+expect: document()
+judge : OK (-)
+
+No.19
+expr  : //*//*[1]
+time  : 0.015000 sec
+result: <head> <title> <h1>
+expect: head title h1
+judge : OK (-)
+
+No.20
+expr  : //node()//node()[1]
+time  : 0.000000 sec
+result: <head> <title> title <h1> foo
+expect: head title text("title"):gecko:opera:applewebkit:netfront h1 text("foo")
+judge : OK (-)
+
+No.21
+expr  : //*/descendant::*[1]
+time  : 0.000000 sec
+result: <head> <title> <h1>
+expect: head title h1
+judge : OK (-)
+
+No.22
+expr  : //node()/descendant::node()[1]
+time  : 0.000000 sec
+result: <head> <title> title <h1> foo
+expect: head title text("title"):gecko:opera:applewebkit:netfront h1 text("foo")
+judge : OK (-)
+
+No.23
+expr  : //*/descendant-or-self::*[1]
+time  : 0.000000 sec
+result: <html> <head> <title> <body> <h1>
+expect: html head title body h1
+judge : OK (-)
+
+No.24
+expr  : //node()/descendant-or-self::node()[1]
+time  : 0.000000 sec
+result: <html> <head> <title> title <body> <h1> foo
+expect: html head title text("title"):gecko:opera:applewebkit:netfront body h1 text("foo")
+judge : OK (-)
+
+

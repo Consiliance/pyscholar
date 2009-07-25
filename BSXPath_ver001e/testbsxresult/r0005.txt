@@ -1,0 +1,494 @@
+[0005]
+Attribute Test
+
+No.1
+expr  : //blockquote["http://coderepos.org/"=@cite]
+time  : 0.000000 sec
+result: <blockquote>
+expect: blockquote
+judge : OK (-)
+
+No.2
+expr  : /descendant::*["CodeRepos"=@title]
+time  : 0.000000 sec
+result: <blockquote> <a>
+expect: blockquote a
+judge : OK (-)
+
+No.3
+expr  : //*[@class]
+time  : 0.000000 sec
+result: <input id=bar class=input-1> <input id=foo class=input-2> <img id=fuga class=img-1> <img id=hoge class=img-2> <cite class=cite site>
+expect: input input img img cite
+judge : OK (-)
+
+No.4
+expr  : /descendant::node()[@title]
+time  : 0.016000 sec
+result: <blockquote> <p id=paragraph> <a>
+expect: blockquote p a
+judge : OK (-)
+
+No.5
+expr  : //body/*[@title]
+time  : 0.000000 sec
+result: <blockquote>
+expect: blockquote
+judge : OK (-)
+
+No.6
+expr  : //blockquote/node()[@title]
+time  : 0.016000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.7
+expr  : //cite[@class="cite"]
+time  : 0.000000 sec
+result: 
+expect: 
+judge : OK (-)
+
+No.8
+expr  : //cite[@class="site"]
+time  : 0.000000 sec
+result: 
+expect: 
+judge : OK (-)
+
+No.9
+expr  : //cite[@class="cite site"]
+time  : 0.015000 sec
+result: <cite class=cite site>
+expect: cite
+judge : OK (-)
+
+No.10
+expr  : //*[@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.11
+expr  : //body//*[@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.12
+expr  : //*[@id="bar"]
+time  : 0.016000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.13
+expr  : //*[@name="foo"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.14
+expr  : //*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.15
+expr  : //*[@name="bar"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.16
+expr  : //p/node()[@id="bar"]
+time  : 0.015000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.17
+expr  : //p/node()[@name="foo"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.18
+expr  : //p/node()[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.19
+expr  : //p/node()[@name="bar"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.20
+expr  : id("pSib")/following-sibling::*[@id][1]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.21
+expr  : id("nSib")/preceding-sibling::*[@id][1]
+time  : 0.000000 sec
+result: <img id=hoge class=img-2>
+expect: img.img-2
+judge : OK (-)
+
+No.22
+expr  : id("pSib")/following-sibling::*[@id="foo"]
+time  : 0.015000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.23
+expr  : id("nSib")/preceding-sibling::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.24
+expr  : id("pSib")/following::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.25
+expr  : id("nSib")/preceding::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.26
+expr  : /descendant::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.27
+expr  : /descendant-or-self::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.28
+expr  : id("hoge")/self::*[@id="hoge"]
+time  : 0.000000 sec
+result: <img id=hoge class=img-2>
+expect: img.img-2
+judge : OK (-)
+
+No.29
+expr  : id("foo")/self::*[@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.30
+expr  : id("foo")/parent::*[@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.31
+expr  : id("foo")/ancestor::*[@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.32
+expr  : id("foo")/ancestor-or-self::*[@id="paragraph"]
+time  : 0.016000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.33
+expr  : //*[./@title="CodeRepos"]
+time  : 0.000000 sec
+result: <blockquote> <a>
+expect: blockquote a
+judge : OK (-)
+
+No.34
+expr  : //node()[./@class]
+time  : 0.015000 sec
+result: <input id=bar class=input-1> <input id=foo class=input-2> <img id=fuga class=img-1> <img id=hoge class=img-2> <cite class=cite site>
+expect: input input img img cite
+judge : OK (-)
+
+No.35
+expr  : /descendant::node()[./@title]
+time  : 0.016000 sec
+result: <blockquote> <p id=paragraph> <a>
+expect: blockquote p a
+judge : OK (-)
+
+No.36
+expr  : /descendant::blockquote/*[./@title]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.37
+expr  : //blockquote[@*="http://coderepos.org/"]
+time  : 0.000000 sec
+result: <blockquote>
+expect: blockquote
+judge : OK (-)
+
+No.38
+expr  : //node()[@*="http://coderepos.org/"]
+time  : 0.016000 sec
+result: <link> <blockquote> <a>
+expect: link blockquote a
+judge : OK (-)
+
+No.39
+expr  : //*[./@*="http://coderepos.org/"]
+time  : 0.015000 sec
+result: <link> <blockquote> <a>
+expect: link blockquote a
+judge : OK (-)
+
+No.40
+expr  : //*[(@href|@cite)="http://coderepos.org/"]
+time  : 0.000000 sec
+result: <link> <blockquote> <a>
+expect: link blockquote a
+judge : OK (-)
+
+No.41
+expr  : count(//blockquote/@*) = count(//blockquote/@* | //blockquote/@*)
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.42
+expr  : //cite[./@class="cite"]
+time  : 0.000000 sec
+result: 
+expect: 
+judge : OK (-)
+
+No.43
+expr  : //cite[./@class="site"]
+time  : 0.000000 sec
+result: 
+expect: 
+judge : OK (-)
+
+No.44
+expr  : //cite[./@class="cite site"]
+time  : 0.000000 sec
+result: <cite class=cite site>
+expect: cite
+judge : OK (-)
+
+No.45
+expr  : //*[./@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.46
+expr  : //blockquote//*[./@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.47
+expr  : //*[./@id="bar"]
+time  : 0.015000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.48
+expr  : //*[./@name="foo"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.49
+expr  : //*[./@id="foo"]
+time  : 0.016000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.50
+expr  : //*[./@name="bar"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.51
+expr  : //p/node()[./@id="bar"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.52
+expr  : //p/node()[./@name="foo"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.53
+expr  : //p/node()[./@id="foo"]
+time  : 0.016000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.54
+expr  : //p/node()[./@name="bar"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.55
+expr  : //node()[./@id="bar"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.56
+expr  : //node()[./@name="foo"]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.57
+expr  : //node()[./@id="foo"]
+time  : 0.015000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.58
+expr  : //node()[./@name="bar"]
+time  : 0.016000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.59
+expr  : id("pSib")/following-sibling::*[./@id][1]
+time  : 0.000000 sec
+result: <input id=bar class=input-1>
+expect: input.input-1
+judge : OK (-)
+
+No.60
+expr  : id("nSib")/preceding-sibling::*[./@id][1]
+time  : 0.000000 sec
+result: <img id=hoge class=img-2>
+expect: img.img-2
+judge : OK (-)
+
+No.61
+expr  : id("pSib")/following-sibling::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.62
+expr  : id("nSib")/preceding-sibling::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.63
+expr  : id("pSib")/following::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.64
+expr  : id("nSib")/preceding::*[./@id="foo"]
+time  : 0.015000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.65
+expr  : /descendant::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.66
+expr  : /descendant-or-self::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.67
+expr  : id("foo")/self::*[./@id="foo"]
+time  : 0.000000 sec
+result: <input id=foo class=input-2>
+expect: input.input-2
+judge : OK (-)
+
+No.68
+expr  : id("foo")/parent::*[./@id="paragraph"]
+time  : 0.016000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.69
+expr  : id("foo")/ancestor::*[./@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+No.70
+expr  : id("foo")/ancestor-or-self::*[./@id="paragraph"]
+time  : 0.000000 sec
+result: <p id=paragraph>
+expect: p
+judge : OK (-)
+
+

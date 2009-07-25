@@ -1,0 +1,46 @@
+[0012]
+Misc
+
+No.1
+expr  : //div[2]
+time  : 0.016000 sec
+result: <div id=id2> <div id=id4-2>
+expect: div#id2 div#id4-2
+judge : OK (-)
+
+No.2
+expr  : /descendant::div[2]
+time  : 0.000000 sec
+result: <div id=id2>
+expect: div#id2
+judge : OK (-)
+
+No.3
+expr  : (//div)[2]
+time  : 0.000000 sec
+result: <div id=id2>
+expect: div#id2
+judge : OK (-)
+
+No.4
+expr  : //tr[2]
+time  : 0.015000 sec
+result: <tr id=id6> <tr id=id9>
+expect: tr#id6 tr#id9
+judge : OK (-)
+
+No.5
+expr  : /descendant::tr[2]
+time  : 0.015000 sec
+result: <tr id=id6>
+expect: tr#id6
+judge : OK (-)
+
+No.6
+expr  : (//tr)[2]
+time  : 0.000000 sec
+result: <tr id=id6>
+expect: tr#id6
+judge : OK (-)
+
+

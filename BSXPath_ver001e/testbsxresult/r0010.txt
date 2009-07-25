@@ -1,0 +1,32 @@
+[0010]
+IE id problem
+
+No.1
+expr  : /html/body/div
+time  : 0.000000 sec
+result: <div> <div id=tags> <div id=getElementsByTagName> <div id=getElementById> <div id=children> <div id=nodeType> <div id=length>
+expect: div div#tags div#getElementsByTagName div#getElementById div#children div#nodeType div#length
+judge : OK (-)
+
+No.2
+expr  : //body//div
+time  : 0.000000 sec
+result: <div> <div id=aaa> <div id=tags> <div id=getElementsByTagName> <div id=getElementById> <div id=children> <div id=nodeType> <div id=length>
+expect: div div#aaa div#tags div#getElementsByTagName div#getElementById div#children div#nodeType div#length
+judge : OK (-)
+
+No.3
+expr  : //div[@id="aaa"]
+time  : 0.016000 sec
+result: <div id=aaa>
+expect: div#aaa
+judge : OK (-)
+
+No.4
+expr  : id("aaa")
+time  : 0.000000 sec
+result: <div id=aaa>
+expect: div#aaa
+judge : OK (-)
+
+

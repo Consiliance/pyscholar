@@ -1,0 +1,53 @@
+[0004]
+Double-Slash and Descendant Test
+
+No.1
+expr  : /descendant::div
+time  : 0.000000 sec
+result: <div class=parent> <div class=child first> <div class=grand-child first-1> <div class=grand-child> <div class=grand-child> <div class=child> <div class=grand-child first-2> <div class=grand-child> <div class=grand-child>
+expect: div.parent div.child div.grand-child div.grand-child div.grand-child div.child div.grand-child div.grand-child div.grand-child
+judge : OK (-)
+
+No.2
+expr  : //body/descendant::*
+time  : 0.015000 sec
+result: <div class=parent> <div class=child first> <div class=grand-child first-1> <p> <div class=grand-child> <p> <div class=grand-child> <p> <div class=child> <div class=grand-child first-2> <p> <div class=grand-child> <p> <div class=grand-child>
+expect: div.parent div.child div.grand-child p div.grand-child p div.grand-child p div.child div.grand-child p div.grand-child p div.grand-child
+judge : OK (-)
+
+No.3
+expr  : /descendant::div[1]
+time  : 0.000000 sec
+result: <div class=parent>
+expect: div.parent
+judge : OK (-)
+
+No.4
+expr  : //div
+time  : 0.000000 sec
+result: <div class=parent> <div class=child first> <div class=grand-child first-1> <div class=grand-child> <div class=grand-child> <div class=child> <div class=grand-child first-2> <div class=grand-child> <div class=grand-child>
+expect: div.parent div.child div.grand-child div.grand-child div.grand-child div.child div.grand-child div.grand-child div.grand-child
+judge : OK (-)
+
+No.5
+expr  : //body//*
+time  : 0.000000 sec
+result: <div class=parent> <div class=child first> <div class=grand-child first-1> <p> <div class=grand-child> <p> <div class=grand-child> <p> <div class=child> <div class=grand-child first-2> <p> <div class=grand-child> <p> <div class=grand-child>
+expect: div.parent div.child div.grand-child p div.grand-child p div.grand-child p div.child div.grand-child p div.grand-child p div.grand-child
+judge : OK (-)
+
+No.6
+expr  : //div[1]
+time  : 0.000000 sec
+result: <div class=parent> <div class=child first> <div class=grand-child first-1> <div class=grand-child first-2>
+expect: div.parent div.child.first div.grand-child.first-1 div.grand-child.first-2
+judge : OK (-)
+
+No.7
+expr  : //div[contains(@class, 'grand-child')]
+time  : 0.000000 sec
+result: <div class=grand-child first-1> <div class=grand-child> <div class=grand-child> <div class=grand-child first-2> <div class=grand-child> <div class=grand-child>
+expect: div.grand-child div.grand-child div.grand-child div.grand-child div.grand-child div.grand-child
+judge : OK (-)
+
+

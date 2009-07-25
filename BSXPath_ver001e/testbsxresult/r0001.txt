@@ -1,0 +1,515 @@
+[0001]
+Simple Value Test
+
+No.1
+expr  : local-name(/html)
+time  : 0.000000 sec
+result: html
+expect: value("html")
+judge : OK (-)
+
+No.2
+expr  : count(/)
+time  : 0.000000 sec
+result: 1
+expect: value(1)
+judge : OK (-)
+
+No.3
+expr  : count(//li)
+time  : 0.000000 sec
+result: 5
+expect: value(5)
+judge : OK (-)
+
+No.4
+expr  : boolean(id('b'))
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.5
+expr  : boolean(/..)
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.6
+expr  : boolean(0)
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.7
+expr  : boolean(NaN)
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.8
+expr  : boolean(1)
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.9
+expr  : boolean(-1)
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.10
+expr  : boolean("")
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.11
+expr  : boolean("Nice boat.")
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.12
+expr  : not(true())
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.13
+expr  : true() and true()
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.14
+expr  : true() or  false()
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.15
+expr  : number(id('b'))
+time  : 0.031000 sec
+result: 3
+expect: value(3)
+judge : OK (-)
+
+No.16
+expr  : number("1")
+time  : 0.000000 sec
+result: 1
+expect: value(1)
+judge : OK (-)
+
+No.17
+expr  : number("-1")
+time  : 0.000000 sec
+result: -1
+expect: value(-1)
+judge : OK (-)
+
+No.18
+expr  : number(" 1")
+time  : 0.000000 sec
+result: 1
+expect: value(1)
+judge : OK (-)
+
+No.19
+expr  : number(" -1")
+time  : 0.000000 sec
+result: -1
+expect: value(-1)
+judge : OK (-)
+
+No.20
+expr  : number(true())
+time  : 0.000000 sec
+result: True
+expect: value(1)
+judge : OK (-)
+
+No.21
+expr  : number(false())
+time  : 0.000000 sec
+result: False
+expect: value(0)
+judge : OK (-)
+
+No.22
+expr  : sum(id("numbers")/li)
+time  : 0.016000 sec
+result: 15
+expect: value(15)
+judge : OK (-)
+
+No.23
+expr  : 1 + 1
+time  : 0.000000 sec
+result: 2
+expect: value(2)
+judge : OK (-)
+
+No.24
+expr  : 1+1
+time  : 0.000000 sec
+result: 2
+expect: value(2)
+judge : OK (-)
+
+No.25
+expr  : 1 - 1
+time  : 0.000000 sec
+result: 0
+expect: value(0)
+judge : OK (-)
+
+No.26
+expr  : 1-1
+time  : 0.000000 sec
+result: 0
+expect: value(0)
+judge : OK (-)
+
+No.27
+expr  : string(html - html)
+time  : 0.000000 sec
+result: NaN
+expect: value("NaN")
+judge : OK (-)
+
+No.28
+expr  : html-html
+time  : 0.000000 sec
+result: 
+expect: (none)
+judge : OK (-)
+
+No.29
+expr  : normalize-space(string())
+time  : 0.016000 sec
+result: Title hoge 3 1 2 3 4 5
+expect: value("Title hoge 3 1 2 3 4 5"):gecko:opera:applewebkit value("Titlehoge 3 1 2 3 4 5"):ie
+judge : OK (-)
+
+No.30
+expr  : normalize-space(string(.))
+time  : 0.000000 sec
+result: Title hoge 3 1 2 3 4 5
+expect: value("Title hoge 3 1 2 3 4 5"):gecko:opera:applewebkit value("Titlehoge 3 1 2 3 4 5"):ie
+judge : OK (-)
+
+No.31
+expr  : normalize-space(string(/))
+time  : 0.000000 sec
+result: Title hoge 3 1 2 3 4 5
+expect: value("Title hoge 3 1 2 3 4 5"):gecko:opera:applewebkit value("Titlehoge 3 1 2 3 4 5"):ie
+judge : OK (-)
+
+No.32
+expr  : normalize-space(string(/html))
+time  : 0.000000 sec
+result: Title hoge 3 1 2 3 4 5
+expect: value("Title hoge 3 1 2 3 4 5"):gecko:opera:applewebkit value("Titlehoge 3 1 2 3 4 5"):ie
+judge : OK (-)
+
+No.33
+expr  : normalize-space(string(//div))
+time  : 0.015000 sec
+result: hoge 3
+expect: value('hoge 3')
+judge : OK (-)
+
+No.34
+expr  : string(//*//*//*)
+time  : 0.016000 sec
+result: Title
+expect: value("Title")
+judge : OK (-)
+
+No.35
+expr  : string(/..)
+time  : 0.000000 sec
+result: 
+expect: value("")
+judge : OK (-)
+
+No.36
+expr  : string(number('Nice boat.'))
+time  : 0.000000 sec
+result: NaN
+expect: value("NaN")
+judge : OK (-)
+
+No.37
+expr  : string(1 div 0)
+time  : 0.000000 sec
+result: Infinity
+expect: value("Infinity")
+judge : OK (-)
+
+No.38
+expr  : string(1 div -0)
+time  : 0.000000 sec
+result: -Infinity
+expect: value("-Infinity")
+judge : OK (-)
+
+No.39
+expr  : string(0)
+time  : 0.000000 sec
+result: 0
+expect: value("0")
+judge : OK (-)
+
+No.40
+expr  : string(-0)
+time  : 0.000000 sec
+result: 0
+expect: value("0")
+judge : OK (-)
+
+No.41
+expr  : string(1)
+time  : 0.000000 sec
+result: 1
+expect: value("1")
+judge : OK (-)
+
+No.42
+expr  : string(-1)
+time  : 0.000000 sec
+result: -1
+expect: value("-1")
+judge : OK (-)
+
+No.43
+expr  : string(true())
+time  : 0.016000 sec
+result: true
+expect: value("true")
+judge : OK (-)
+
+No.44
+expr  : string(false())
+time  : 0.000000 sec
+result: false
+expect: value("false")
+judge : OK (-)
+
+No.45
+expr  : string-length("")
+time  : 0.000000 sec
+result: 0
+expect: value(0)
+judge : OK (-)
+
+No.46
+expr  : string-length("a")
+time  : 0.000000 sec
+result: 1
+expect: value(1)
+judge : OK (-)
+
+No.47
+expr  : contains("abcdefg", "def")
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.48
+expr  : contains("abcdefg", "zzz")
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.49
+expr  : starts-with("abcdefg", "abc")
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.50
+expr  : starts-with("abcdefg", "def")
+time  : 0.000000 sec
+result: False
+expect: value(false)
+judge : OK (-)
+
+No.51
+expr  : concat("abc", "def")
+time  : 0.000000 sec
+result: abcdef
+expect: value("abcdef")
+judge : OK (-)
+
+No.52
+expr  : concat("abc", "def", "ghi")
+time  : 0.000000 sec
+result: abcdefghi
+expect: value("abcdefghi")
+judge : OK (-)
+
+No.53
+expr  : concat("abc", "def", "ghi", "jkl")
+time  : 0.000000 sec
+result: abcdefghijkl
+expect: value("abcdefghijkl")
+judge : OK (-)
+
+No.54
+expr  : translate("bar","abc","ABC")
+time  : 0.000000 sec
+result: BAr
+expect: value("BAr")
+judge : OK (-)
+
+No.55
+expr  : translate("--aaa--","abc-","ABC")
+time  : 0.000000 sec
+result: AAA
+expect: value("AAA")
+judge : OK (-)
+
+No.56
+expr  : substring("12345", 2, 3)
+time  : 0.000000 sec
+result: 234
+expect: value("234")
+judge : OK (-)
+
+No.57
+expr  : substring("12345", 2)
+time  : 0.000000 sec
+result: 2345
+expect: value("2345")
+judge : OK (-)
+
+No.58
+expr  : substring("12345", 1.5, 2.6)
+time  : 0.000000 sec
+result: 234
+expect: value("234")
+judge : OK (-)
+
+No.59
+expr  : substring("12345", 0, 3)
+time  : 0.000000 sec
+result: 12
+expect: value("12")
+judge : OK (-)
+
+No.60
+expr  : substring("12345", 0 div 0, 3)
+time  : 0.015000 sec
+result: 
+expect: value("")
+judge : OK (-)
+
+No.61
+expr  : substring("12345", 1, 0 div 0)
+time  : 0.000000 sec
+result: 
+expect: value("")
+judge : OK (-)
+
+No.62
+expr  : substring("12345", -42, 1 div 0)
+time  : 0.000000 sec
+result: 12345
+expect: value("12345")
+judge : OK (-)
+
+No.63
+expr  : substring("12345", -1 div 0, 1 div 0)
+time  : 0.000000 sec
+result: 
+expect: value("")
+judge : OK (-)
+
+No.64
+expr  : substring-after("1999/04/01","/")
+time  : 0.000000 sec
+result: 04/01
+expect: value("04/01")
+judge : OK (-)
+
+No.65
+expr  : substring-after("1999/04/01","19")
+time  : 0.000000 sec
+result: 99/04/01
+expect: value("99/04/01")
+judge : OK (-)
+
+No.66
+expr  : substring-before("1999/04/01","/")
+time  : 0.000000 sec
+result: 1999
+expect: value("1999")
+judge : OK (-)
+
+No.67
+expr  : normalize-space(id("numbers")/li) = "1"
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.68
+expr  : id("numbers")/li = id("numbers")/li
+time  : 0.016000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.69
+expr  : "" = false()
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.70
+expr  : false() = ""
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.71
+expr  : "1" = 1
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.72
+expr  : 1 = "1"
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+No.73
+expr  : "1" = "1"
+time  : 0.000000 sec
+result: True
+expect: value(true)
+judge : OK (-)
+
+

@@ -1,0 +1,200 @@
+[0000]
+Preceding and Folloing Test
+
+No.1
+expr  : id("t1")/following::*
+time  : 0.016000 sec
+result: <li> <li id=t2> <p class=2> <div> <p class=3> <ul> <li id=t3> <li> <li id=t4> <p class=4>
+expect: li li#t2 p.2 div p.3 ul li#t3 li li#t4 p.4
+judge : OK (-)
+
+No.2
+expr  : id("t2")/following::*
+time  : 0.000000 sec
+result: <p class=2> <div> <p class=3> <ul> <li id=t3> <li> <li id=t4> <p class=4>
+expect: p.2 div p.3 ul li#t3 li li#t4 p.4
+judge : OK (-)
+
+No.3
+expr  : id("t3")/following::*
+time  : 0.000000 sec
+result: <li> <li id=t4> <p class=4>
+expect: li li#t4 p.4
+judge : OK (-)
+
+No.4
+expr  : id("t4")/following::*
+time  : 0.000000 sec
+result: <p class=4>
+expect: p.4
+judge : OK (-)
+
+No.5
+expr  : id("t3 t4")/following::*
+time  : 0.015000 sec
+result: <li> <li id=t4> <p class=4>
+expect: li li#t4 p.4
+judge : OK (-)
+
+No.6
+expr  : id("t2 t3 t4")/following::*
+time  : 0.016000 sec
+result: <p class=2> <div> <p class=3> <ul> <li id=t3> <li> <li id=t4> <p class=4>
+expect: p.2 div p.3 ul li#t3 li li#t4 p.4
+judge : OK (-)
+
+No.7
+expr  : id("t1 t2 t3 t4")/following::*
+time  : 0.015000 sec
+result: <li> <li id=t2> <p class=2> <div> <p class=3> <ul> <li id=t3> <li> <li id=t4> <p class=4>
+expect: li li#t2 p.2 div p.3 ul li#t3 li li#t4 p.4
+judge : OK (-)
+
+No.8
+expr  : id("t1 t2 t3 t4")/preceding::*
+time  : 0.015000 sec
+result: <head> <title> <div> <p class=1> <ul> <li id=t1> <li> <li id=t2> <p class=2> <p class=3> <li id=t3> <li>
+expect: head title div p.1 ul li#t1 li li#t2 p.2 p.3 li#t3 li
+judge : OK (-)
+
+No.9
+expr  : id("t1 t2 t3")/preceding::*
+time  : 0.016000 sec
+result: <head> <title> <div> <p class=1> <ul> <li id=t1> <li> <li id=t2> <p class=2> <p class=3>
+expect: head title div p.1 ul li#t1 li li#t2 p.2 p.3
+judge : OK (-)
+
+No.10
+expr  : id("t1 t2")/preceding::*
+time  : 0.000000 sec
+result: <head> <title> <p class=1> <li id=t1> <li>
+expect: head title p.1 li#t1 li
+judge : OK (-)
+
+No.11
+expr  : id("t1")/preceding::*
+time  : 0.000000 sec
+result: <head> <title> <p class=1>
+expect: head title p.1
+judge : OK (-)
+
+No.12
+expr  : id("t2")/preceding::*
+time  : 0.016000 sec
+result: <head> <title> <p class=1> <li id=t1> <li>
+expect: head title p.1 li#t1 li
+judge : OK (-)
+
+No.13
+expr  : id("t3")/preceding::*
+time  : 0.015000 sec
+result: <head> <title> <div> <p class=1> <ul> <li id=t1> <li> <li id=t2> <p class=2> <p class=3>
+expect: head title div p.1 ul li#t1 li li#t2 p.2 p.3
+judge : OK (-)
+
+No.14
+expr  : id("t4")/preceding::*
+time  : 0.016000 sec
+result: <head> <title> <div> <p class=1> <ul> <li id=t1> <li> <li id=t2> <p class=2> <p class=3> <li id=t3> <li>
+expect: head title div p.1 ul li#t1 li li#t2 p.2 p.3 li#t3 li
+judge : OK (-)
+
+No.15
+expr  : id("t1")/following::*[1]
+time  : 0.015000 sec
+result: <li>
+expect: li
+judge : OK (-)
+
+No.16
+expr  : id("t2")/following::*[1]
+time  : 0.000000 sec
+result: <p class=2>
+expect: p.2
+judge : OK (-)
+
+No.17
+expr  : id("t3")/following::*[1]
+time  : 0.000000 sec
+result: <li>
+expect: li
+judge : OK (-)
+
+No.18
+expr  : id("t4")/following::*[1]
+time  : 0.016000 sec
+result: <p class=4>
+expect: p.4
+judge : OK (-)
+
+No.19
+expr  : id("t3 t4")/following::*[1]
+time  : 0.015000 sec
+result: <li> <p class=4>
+expect: li p.4
+judge : OK (-)
+
+No.20
+expr  : id("t2 t3 t4")/following::*[1]
+time  : 0.016000 sec
+result: <p class=2> <li> <p class=4>
+expect: p.2 li p.4
+judge : OK (-)
+
+No.21
+expr  : id("t1 t2 t3 t4")/following::*[1]
+time  : 0.015000 sec
+result: <li> <p class=2> <li> <p class=4>
+expect: li p.2 li p.4
+judge : OK (-)
+
+No.22
+expr  : id("t1 t2 t3 t4")/preceding::*[1]
+time  : 0.031000 sec
+result: <p class=1> <li> <p class=3> <li>
+expect: p.1 li p.3 li
+judge : OK (-)
+
+No.23
+expr  : id("t1 t2 t3")/preceding::*[1]
+time  : 0.016000 sec
+result: <p class=1> <li> <p class=3>
+expect: p.1 li p.3
+judge : OK (-)
+
+No.24
+expr  : id("t1 t2")/preceding::*[1]
+time  : 0.016000 sec
+result: <p class=1> <li>
+expect: p.1 li
+judge : OK (-)
+
+No.25
+expr  : id("t1")/preceding::*[1]
+time  : 0.015000 sec
+result: <p class=1>
+expect: p.1
+judge : OK (-)
+
+No.26
+expr  : id("t2")/preceding::*[1]
+time  : 0.016000 sec
+result: <li>
+expect: li
+judge : OK (-)
+
+No.27
+expr  : id("t3")/preceding::*[1]
+time  : 0.016000 sec
+result: <p class=3>
+expect: p.3
+judge : OK (-)
+
+No.28
+expr  : id("t4")/preceding::*[1]
+time  : 0.000000 sec
+result: <li>
+expect: li
+judge : OK (-)
+
+

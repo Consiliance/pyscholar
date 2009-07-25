@@ -1,0 +1,102 @@
+[0009]
+Element had length property (ex <select>)  Test
+
+No.1
+expr  : id("target")
+time  : 0.000000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.2
+expr  : //*[@id="target"]
+time  : 0.015000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.3
+expr  : //select[@id="target"]
+time  : 0.000000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.4
+expr  : //node()[@id="target"]
+time  : 0.000000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.5
+expr  : //body/*[@id="target"]
+time  : 0.000000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.6
+expr  : //body/select[@id="target"]
+time  : 0.000000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.7
+expr  : //body/node()[@id="target"]
+time  : 0.016000 sec
+result: <select id=target>
+expect: select#target
+judge : OK (-)
+
+No.8
+expr  : id("target2")
+time  : 0.000000 sec
+result: 
+expect: (none)
+judge : OK (-)
+
+No.9
+expr  : //*[@name="target2"]
+time  : 0.000000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+No.10
+expr  : //select[@name="target2"]
+time  : 0.000000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+No.11
+expr  : //node()[@name="target2"]
+time  : 0.000000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+No.12
+expr  : //body/div/*[@name="target2"]
+time  : 0.000000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+No.13
+expr  : //body/div/select[@name="target2"]
+time  : 0.000000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+No.14
+expr  : //body/div/node()[@name="target2"]
+time  : 0.016000 sec
+result: <select id=a> <select id=b>
+expect: select#a select#b
+judge : OK (-)
+
+

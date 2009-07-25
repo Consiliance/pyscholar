@@ -1,0 +1,116 @@
+[0008]
+Sibling Test
+
+No.1
+expr  : id('first')/following-sibling::*
+time  : 0.000000 sec
+result: <span class=2> <span class=3> <span id=last class=4>
+expect: span.2 span.3 span.4
+judge : OK (-)
+
+No.2
+expr  : id('first')/following-sibling::node()
+time  : 0.000000 sec
+result: foo <span class=2> bar <span class=3> baz <span id=last class=4>
+expect: text("foo") span.2 text("bar") span.3 text("baz") span.4
+judge : OK (-)
+
+No.3
+expr  : id('first')/following-sibling::*/following-sibling::*
+time  : 0.000000 sec
+result: <span class=3> <span id=last class=4>
+expect: span.3 span.4
+judge : OK (-)
+
+No.4
+expr  : id('first')/following-sibling::node()/following-sibling::node()
+time  : 0.000000 sec
+result: <span class=2> bar <span class=3> baz <span id=last class=4>
+expect: span.2 text("bar") span.3 text("baz") span.4
+judge : OK (-)
+
+No.5
+expr  : id('first')/following-sibling::*[1]
+time  : 0.015000 sec
+result: <span class=2>
+expect: span.2
+judge : OK (-)
+
+No.6
+expr  : id('first')/following-sibling::node()[1]
+time  : 0.000000 sec
+result: foo
+expect: text("foo")
+judge : OK (-)
+
+No.7
+expr  : id('first')/following-sibling::*/following-sibling::*[1]
+time  : 0.000000 sec
+result: <span class=3> <span id=last class=4>
+expect: span.3 span.4
+judge : OK (-)
+
+No.8
+expr  : id('first')/following-sibling::node()/following-sibling::node()[1]
+time  : 0.000000 sec
+result: <span class=2> bar <span class=3> baz <span id=last class=4>
+expect: span.2 text("bar") span.3 text("baz") span.4
+judge : OK (-)
+
+No.9
+expr  : id('last')/preceding-sibling::*
+time  : 0.015000 sec
+result: <span id=first class=1> <span class=2> <span class=3>
+expect: span.1 span.2 span.3
+judge : OK (-)
+
+No.10
+expr  : id('last')/preceding-sibling::node()
+time  : 0.000000 sec
+result: <span id=first class=1> foo <span class=2> bar <span class=3> baz
+expect: span.1 text("foo") span.2 text("bar") span.3 text("baz")
+judge : OK (-)
+
+No.11
+expr  : id('last')/preceding-sibling::*/preceding-sibling::*
+time  : 0.000000 sec
+result: <span id=first class=1> <span class=2>
+expect: span.1 span.2
+judge : OK (-)
+
+No.12
+expr  : id('last')/preceding-sibling::node()/preceding-sibling::node()
+time  : 0.000000 sec
+result: <span id=first class=1> foo <span class=2> bar <span class=3>
+expect: span.1 text("foo") span.2 text("bar") span.3
+judge : OK (-)
+
+No.13
+expr  : id('last')/preceding-sibling::*[1]
+time  : 0.000000 sec
+result: <span class=3>
+expect: span.3
+judge : OK (-)
+
+No.14
+expr  : id('last')/preceding-sibling::node()[1]
+time  : 0.000000 sec
+result: baz
+expect: text("baz")
+judge : OK (-)
+
+No.15
+expr  : id('last')/preceding-sibling::*/preceding-sibling::*[1]
+time  : 0.000000 sec
+result: <span id=first class=1> <span class=2>
+expect: span.1 span.2
+judge : OK (-)
+
+No.16
+expr  : id('last')/preceding-sibling::node()/preceding-sibling::node()[1]
+time  : 0.015000 sec
+result: <span id=first class=1> foo <span class=2> bar <span class=3>
+expect: span.1 text("foo") span.2 text("bar") span.3
+judge : OK (-)
+
+
