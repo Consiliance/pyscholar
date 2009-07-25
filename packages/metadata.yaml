@@ -1,0 +1,25 @@
+%YAML 1.1
+---
+name: Nature
+description: nature scraper
+author: "Bryan Bishop <kanzure@gmail.com>"
+date: 2009-07-25
+version: 0.0.1
+regexp: "https?://www\\.nature\\.com[^/]*/(?:[^/]+/journal/v[^/]+/n[^/]+/(?:(?:full|abs)/.+\\.html|index.html)|search/executeSearch)"
+classes:
+    - Nature
+#    - classes.Nature
+yaml_tags:
+    - "!nature"
+---
+name: ScienceDirect
+description: ScienceDirect scraper
+author: "Bryan Bishop <kanzure@gmail.com>"
+date: 2009-07-25
+version: 0.0.1
+regexp: "https?://[^/]*science-?direct\\.com[^/]*/science(\\/article)?(\\?(?:.+\\&|)ob=(?:ArticleURL|ArticleListURL|PublicationURL))?"
+classes:
+    - ScienceDirect
+#    - classes.ScienceDirect
+yaml_tags:
+    - "!sciencedirect"
