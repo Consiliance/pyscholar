@@ -2,10 +2,13 @@
 
 import copy
 import re
+import sys
 import yaml
 import httplib
 import urllib
 from BeautifulSoup import BeautifulSoup
+
+if len(sys.argv) == 0: exit()
 
 class Paper(yaml.YAMLObject):
     yaml_tag='!paper'
@@ -18,23 +21,23 @@ class Paper(yaml.YAMLObject):
 
 SEARCH_HOST = "scholar.google.com"
 SEARCH_BASE_URL = "/scholar"
-terms = ["PDMS"]
-limit = 10 #100
+terms = [sys.argv[1]]
+limit = 100 #10
 
 params = urllib.urlencode({'q': "+".join(terms), 'num':limit})
 headers = {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US    ; rv:1.9.0.9) Gecko/2009050519 Iceweasel/3.0.6 (Debian-3.0.6-1)'}
 url = SEARCH_BASE_URL + "?" + params
 
-#conn = httplib.HTTPConnection(SEARCH_HOST)
-#conn.request("GET", url, {}, headers)
-#resp = conn.getresponse()
-status = 200#resp.status
+conn = httplib.HTTPConnection(SEARCH_HOST)
+conn.request("GET", url, {}, headers)
+resp = conn.getresponse()
+status = resp.status #200
 papers = []
 if status==200:
-    #html = resp.read()
-    file2 = open("scholar.htm","r")
-    html = file2.read()
-    file2.close()
+    html = resp.read()
+    #file2 = open("scholar.htm","r")
+    #html = file2.read()
+    #file2.close()
     results = []
     html = html.decode('ascii', 'ignore')
     soup = BeautifulSoup(html)
@@ -64,7 +67,6 @@ if status==200:
                     link_title = stuff.renderContents()
                     if not link_title == "BL Direct": #then it might be useful.
                         if href[-3:] == "pdf":
-                            #TODO: add to record object as potential PDF link
                             potential_PDF_link = href
                             pass
                         else:
@@ -76,19 +78,17 @@ if status==200:
                         #ISI Web of Knowledge integration? Nah.
                         cites_link = href
                         cites_link_name = stuff.renderContents()
-                        #TODO: add to record object
                     elif href.count("cluster") > 0: #All x versions
                         cluster_link = href
                         cluster_link_name = stuff.renderContents()
-                        #TODO: parse number of papers that have cited this paper
-                        #TODO: add to record object
                     elif href.count("related") > 0: #related articles
                         related_link = href
                         related_link_name = stuff.renderContents()
-                        #TODO: add to record object
                     elif stuff.renderContents() == "View as HTML":
                         view_as_html_link = href
-                        #TODO: add to record object
+                    elif stuff.renderContents() == "Cached":
+                        pass
+                        #TODO: add to record or object
                     else: 
                         print "ERROR: was not a citation nor a 'see all versions' nor a related-papers link"
                         print "title was = ", stuff.renderContents()
