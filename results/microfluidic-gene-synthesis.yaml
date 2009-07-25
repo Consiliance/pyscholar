@@ -1,0 +1,1514 @@
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=524290
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?doi=10.1093/nar/gkm121
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=419614
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1681520
+ERROR: what do I want to do with this? href =  http://www.cell.com/chemistry-biology/abstract/S1074-5521(09)00081-7
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=108456
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1558906
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2673447
+ERROR: what do I want to do with this? href =  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2013922
+ERROR: what do I want to do with this? href =  http://www.pnas.org/cgi/content/full/105/51/20173
+ERROR: what do I want to do with this? href =  http://www.clinchem.org/cgi/content/full/54/5/891
+ERROR: what do I want to do with this? href =  http://dspace.mit.edu/bitstream/1721.1/35066/4/71229963.pdf.txt
+- !paper
+  authors: [!!python/unicode 'J Tian', !!python/unicode ' H Gong', !!python/unicode ' N
+      Sheng', !!python/unicode ' X Zhou', !!python/unicode ' E Gulari', !!python/unicode ' X ']
+  cites_link: !!python/unicode '/scholar?cites=9256782983694364254&hl=en&num=100'
+  cites_link_name: Cited by 134
+  diff_versions_link: !!python/unicode '/scholar?cluster=9256782983694364254&hl=en&num=100'
+  diff_versions_link_name: All 9 versions
+  journal_href: !!python/unicode 'http://www.nature.com/nature/journal/v432/n7020/full/nature03151.html'
+  potential_PDF_link: !!python/unicode 'http://deepblue.lib.umich.edu/bitstream/2027.42/62677/1/nature03151.pdf'
+  pub_year: '2004'
+  publication: Nature
+  related_papers_link: !!python/unicode '/scholar?q=related:Xq77QRSzdoAJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: Accurate multiplex <b>gene synthesis </b>from programmable DNA microchips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'X Zhou', !!python/unicode ' S Cai', !!python/unicode ' A
+      Hong', !!python/unicode ' Q You', !!python/unicode ' P Yu', !!python/unicode ' N
+      Sheng', !!python/unicode ' ']
+  cites_link: !!python/unicode '/scholar?cites=2434453543543594235&hl=en&num=100'
+  cites_link_name: Cited by 37
+  diff_versions_link: !!python/unicode '/scholar?cluster=2434453543543594235&hl=en&num=100'
+  diff_versions_link_name: All 13 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/abstract/32/18/5409'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Nucleic acids research
+  related_papers_link: !!python/unicode '/scholar?q=related:-1wbfZnqyCEJ:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: <b>Microfluidic </b>PicoArray <b>synthesis </b>of oligodeoxynucleotides and
+    simultaneous assembling of &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'DS Kong', !!python/unicode ' PA Carr', !!python/unicode ' L
+      Chen', !!python/unicode ' S Zhang', !!python/unicode ' JM  ']
+  cites_link: !!python/unicode '/scholar?cites=14703117987583479212&hl=en&num=100'
+  cites_link_name: Cited by 6
+  diff_versions_link: !!python/unicode '/scholar?cluster=14703117987583479212&hl=en&num=100'
+  diff_versions_link_name: All 8 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/abstract/35/8/e61'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Nucleic Acids Research
+  related_papers_link: !!python/unicode '/scholar?q=related:rM2RxOj3C8wJ:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: Parallel <b>gene synthesis </b>in a <b>microfluidic </b>device
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'F Su', !!python/unicode ' K Chakrabarty']
+  cites_link: !!python/unicode '/scholar?cites=4889264517524804654&hl=en&num=100'
+  cites_link_name: Cited by 61
+  diff_versions_link: !!python/unicode '/scholar?cluster=4889264517524804654&hl=en&num=100'
+  diff_versions_link_name: All 15 versions
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382576'
+  potential_PDF_link: !!python/unicode 'http://www.acm.org/sigs/sigda/daforum/abs/44_attachment.pdf'
+  pub_year: '2004'
+  publication: IEEE/ACM International Conference on Computer  &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:LtT8mywo2kMJ:scholar.google.com/&hl=en&num=100'
+  server: ieeexplore.ieee.org
+  title: Architectural-level <b>synthesis </b>of digital <b>microfluidics</b>-based
+    biochips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'EP Kartalov', !!python/unicode ' SR Quake']
+  cites_link: !!python/unicode '/scholar?cites=1288255765063548481&hl=en&num=100'
+  cites_link_name: Cited by 47
+  diff_versions_link: !!python/unicode '/scholar?cluster=1288255765063548481&hl=en&num=100'
+  diff_versions_link_name: All 12 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/abstract/32/9/2873'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Nucleic acids research
+  related_papers_link: !!python/unicode '/scholar?q=related:QT52-MrN4BEJ:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: <b>Microfluidic </b>device reads up to four consecutive base pairs in DNA
+    sequencing-by-<b>synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'F Su', !!python/unicode ' K Chakrabarty']
+  cites_link: !!python/unicode '/scholar?cites=5190772151530326376&hl=en&num=100'
+  cites_link_name: Cited by 36
+  diff_versions_link: !!python/unicode '/scholar?cluster=5190772151530326376&hl=en&num=100'
+  diff_versions_link_name: All 9 versions
+  journal_href: !!python/unicode 'http://portal.acm.org/citation.cfm?id=1065797&dl=GUIDE,'
+  potential_PDF_link: !!python/unicode 'http://www.dac.com/data2/42nd/42acceptedpapers.nsf/0c4c09c6ffa905c487256b7b007afb72/4d5bdd88a084405d87256fc400711a50/$FILE/49_2.pdf'
+  pub_year: '2005'
+  publication: Proceedings of the 42nd annual conference on Design &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:aIn0GcVTCUgJ:scholar.google.com/&hl=en&num=100'
+  server: portal.acm.org
+  title: Unified high-level <b>synthesis </b>and module placement for defect-tolerant
+    <b>microfluidic </b>biochips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JF Zhong', !!python/unicode ' Y Chen', !!python/unicode ' JS
+      Marcus', !!python/unicode ' A Scherer', !!python/unicode ' SR ']
+  cites_link: !!python/unicode '/scholar?cites=391857943058857194&hl=en&num=100'
+  cites_link_name: Cited by 27
+  diff_versions_link: !!python/unicode '/scholar?cluster=391857943058857194&hl=en&num=100'
+  diff_versions_link_name: All 7 versions
+  journal_href: !!python/unicode 'http://www.rsc.org/publishing/journals/LC/article.asp?doi=b712116d'
+  potential_PDF_link: !!python/unicode 'http://thebigone.stanford.edu/quake/publications/zhong_locjan08.pdf'
+  pub_year: '2008'
+  publication: Lab on a Chip
+  related_papers_link: !!python/unicode '/scholar?q=related:6jxwGrkocAUJ:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: A <b>microfluidic </b>processor for <b>gene </b>expression profiling of single
+    human embryonic stem cells
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'Y Huang', !!python/unicode ' P Castrataro', !!python/unicode ' CC
+      Lee', !!python/unicode ' SR Quake']
+  cites_link: !!python/unicode '/scholar?cites=16326745414609116877&hl=en&num=100'
+  cites_link_name: Cited by 14
+  diff_versions_link: !!python/unicode '/scholar?cluster=16326745414609116877&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.rsc.org/Publishing/Journals/LC/article.asp?DOI=b613923j'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Lab on a Chip
+  related_papers_link: !!python/unicode '/scholar?q=related:zZ4DqHNAlOIJ:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: Solvent resistant <b>microfluidic </b>DNA synthesizer
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Fujii']
+  cites_link: !!python/unicode '/scholar?cites=16944287146083390025&hl=en&num=100'
+  cites_link_name: Cited by 67
+  diff_versions_link: !!python/unicode '/scholar?cluster=16944287146083390025&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S016793170200494X'
+  potential_PDF_link: ''
+  pub_year: '2002'
+  publication: Microelectronic Engineering
+  related_papers_link: !!python/unicode '/scholar?q=related:SZKEemIzJusJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: PDMS-based <b>microfluidic </b>devices for biomedical applications
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'L Stewart', !!python/unicode ' AB Burgin']
+  cites_link: !!python/unicode '/scholar?cites=8173949019343317312&hl=en&num=100'
+  cites_link_name: Cited by 8
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.ingentaconnect.com/content/ben/fddd/2005/00000001/00000001/art00015'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: Frontiers in Drug Design &amp;# 38; Discovery
+  related_papers_link: !!python/unicode '/scholar?q=related:QGkcXlOzb3EJ:scholar.google.com/&hl=en&num=100'
+  server: ingentaconnect.com
+  title: 'Whole <b>gene synthesis</b>: A <b>Gene</b>-O-Matic future'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JS Marcus', !!python/unicode ' WF Anderson', !!python/unicode ' SR
+      Quake']
+  cites_link: !!python/unicode '/scholar?cites=7768912270619073743&hl=en&num=100'
+  cites_link_name: Cited by 45
+  diff_versions_link: !!python/unicode '/scholar?cluster=7768912270619073743&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://pubs.acs.org/doi/abs/10.1021/ac0519460'
+  potential_PDF_link: !!python/unicode 'http://thebigone.stanford.edu/foundry/services/PredesignedChips/single_cell_analchem06.pdf'
+  pub_year: '2006'
+  publication: Anal. Chem
+  related_papers_link: !!python/unicode '/scholar?q=related:z1xsdYy40GsJ:scholar.google.com/&hl=en&num=100'
+  server: pubs.acs.org
+  title: <b>Microfluidic </b>single-cell mRNA isolation and analysis
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'P Sethu', !!python/unicode ' LL Moldawer', !!python/unicode ' MN
+      Mindrinos', !!python/unicode ' PO  ']
+  cites_link: !!python/unicode '/scholar?cites=7984946499166988284&hl=en&num=100'
+  cites_link_name: Cited by 14
+  diff_versions_link: !!python/unicode '/scholar?cluster=7984946499166988284&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://cem.sbi.org/PDFs-publications/Sethu.pdf'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: Anal Chem
+  related_papers_link: !!python/unicode '/scholar?q=related:_OdY8Yg60G4J:scholar.google.com/&hl=en&num=100'
+  server: cem.sbi.org
+  title: <b>Microfluidic </b>isolation of leukocytes from whole blood for phenotype
+    and <b>gene </b>expression  &hellip;
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:_OdY8Yg60G4J:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'Q Mei', !!python/unicode ' CK Fredrickson', !!python/unicode ' A
+      Simon', !!python/unicode ' R Khnouf', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=6241775805380097640&hl=en&num=100'
+  cites_link_name: Cited by 7
+  diff_versions_link: !!python/unicode '/scholar?cluster=6241775805380097640&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Biotechnology Progress
+  related_papers_link: !!python/unicode '/scholar?q=related:aPZOTwY-n1YJ:scholar.google.com/&hl=en&num=100'
+  server: American Chemical Society USA
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'RH Liu', !!python/unicode ' T Nguyen', !!python/unicode ' K
+      Schwarzkopf', !!python/unicode ' HS Fuji', !!python/unicode ' A ']
+  cites_link: !!python/unicode '/scholar?cites=9821093455540952942&hl=en&num=100'
+  cites_link_name: Cited by 21
+  diff_versions_link: !!python/unicode '/scholar?cluster=9821093455540952942&hl=en&num=100'
+  diff_versions_link_name: All 7 versions
+  journal_href: !!python/unicode 'http://www.combimatrix.com/docs/ac0518553.pdf'
+  potential_PDF_link: ''
+  pub_year: '2001'
+  publication: Nucleic Acids Res
+  related_papers_link: !!python/unicode '/scholar?q=related:bp9uo3aIS4gJ:scholar.google.com/&hl=en&num=100'
+  server: combimatrix.com
+  title: Fully integrated miniature device for automated <b>gene </b>expression DNA
+    microarray  &hellip;
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:bp9uo3aIS4gJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'MC Huang', !!python/unicode ' H Ye', !!python/unicode ' YK
+      Kuan', !!python/unicode ' MH Li', !!python/unicode ' JY Ying']
+  cites_link: !!python/unicode '/scholar?cites=4503646473450544770&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=4503646473450544770&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.rsc.org/Publishing/Journals/LC/article.asp?doi=b807688j'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Lab on a Chip
+  related_papers_link: !!python/unicode '/scholar?q=related:gt71M5sqgD4J:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: Integrated two-step <b>gene synthesis </b>in a <b>microfluidic </b>device
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JS Marcus', !!python/unicode ' WF Anderson', !!python/unicode ' SR
+      Quake']
+  cites_link: !!python/unicode '/scholar?cites=9234335179528195646&hl=en&num=100'
+  cites_link_name: Cited by 50
+  diff_versions_link: !!python/unicode '/scholar?cluster=9234335179528195646&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://thebigone.stanford.edu/quake/publications/analchemfeb06.pdf'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: Anal. Chem
+  related_papers_link: !!python/unicode '/scholar?q=related:Ps6rkOvyJoAJ:scholar.google.com/&hl=en&num=100'
+  server: thebigone.stanford.edu
+  title: Parallel picoliter RT-PCR assays using <b>microfluidics</b>
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:Ps6rkOvyJoAJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'AC Forster', !!python/unicode ' GM Church']
+  cites_link: !!python/unicode '/scholar?cites=1740087887429691365&hl=en&num=100'
+  cites_link_name: Cited by 52
+  diff_versions_link: !!python/unicode '/scholar?cluster=1740087887429691365&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://www.nature.com/msb/journal/v2/n1/full/msb4100090.html'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: Molecular Systems Biology
+  related_papers_link: !!python/unicode '/scholar?q=related:5ec02LYIJhgJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: Towards <b>synthesis </b>of a minimal cell
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'L Kang', !!python/unicode ' BG Chung', !!python/unicode ' R
+      Langer', !!python/unicode ' A  ']
+  cites_link: !!python/unicode '/scholar?cites=8291794029423136014&hl=en&num=100'
+  cites_link_name: Cited by 10
+  diff_versions_link: !!python/unicode '/scholar?cluster=8291794029423136014&hl=en&num=100'
+  diff_versions_link_name: All 6 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S1359644607004175'
+  potential_PDF_link: !!python/unicode 'http://www.tissueeng.net/lab/papers/microdrug.pdf'
+  pub_year: '2008'
+  publication: Drug Discovery Today
+  related_papers_link: !!python/unicode '/scholar?q=related:Do146rxeEnMJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: '<b>Microfluidics </b>for drug discovery and development: from target selection
+    to product  &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'K Ikuta', !!python/unicode ' A Takahashi', !!python/unicode ' S
+      Maruo']
+  cites_link: !!python/unicode '/scholar?cites=4949257878686621453&hl=en&num=100'
+  cites_link_name: Cited by 17
+  diff_versions_link: !!python/unicode '/scholar?cluster=4949257878686621453&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=906576'
+  potential_PDF_link: ''
+  pub_year: '2001'
+  publication: Micro Electro Mechanical Systems, 2001. MEMS 2001.  &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:DV_rgNFLr0QJ:scholar.google.com/&hl=en&num=100'
+  server: ieeexplore.ieee.org
+  title: In-chip cell-free protein <b>synthesis </b>from DNA by using biochemicalIC
+    chips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Ryley', !!python/unicode ' OM Pereira-Smith']
+  cites_link: !!python/unicode '/scholar?cites=15861445797699527917&hl=en&num=100'
+  cites_link_name: Cited by 13
+  diff_versions_link: !!python/unicode '/scholar?cluster=15861445797699527917&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://www3.interscience.wiley.com/journal/113452675/abstract'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: Yeast
+  related_papers_link: !!python/unicode '/scholar?q=related:7ST-W-osH9wJ:scholar.google.com/&hl=en&num=100'
+  server: interscience.wiley.com
+  title: <b>Microfluidics </b>device for single cell <b>gene </b>expression analysis
+    in Saccharomyces cerevisiae
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'K Chakrabarty', !!python/unicode ' F Su']
+  cites_link: !!python/unicode '/scholar?cites=11071745864951649097&hl=en&num=100'
+  cites_link_name: Cited by 12
+  diff_versions_link: !!python/unicode '/scholar?cluster=11071745864951649097&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://books.google.com/books?hl=en&lr=&id=mJ_p34jMzxgC&oi=fnd&pg=PA1&dq=microfluidic+gene+synthesis&ots=hgtlKGsI64&sig=n2HuifMX7GKyochT6frteBSwE6s'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:SdPXGzS-ppkJ:scholar.google.com/&hl=en&num=100'
+  server: books.google.com
+  title: 'Digital <b>microfluidic </b>biochips: <b>synthesis</b>, testing, and reconfiguration
+    techniques'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JD Hoheisel']
+  cites_link: !!python/unicode '/scholar?cites=11737237416699062008&hl=en&num=100'
+  cites_link_name: Cited by 148
+  diff_versions_link: !!python/unicode '/scholar?cluster=11737237416699062008&hl=en&num=100'
+  diff_versions_link_name: All 11 versions
+  journal_href: !!python/unicode 'http://www.nature.com/nrg/journal/v7/n3/abs/nrg1809.html'
+  potential_PDF_link: !!python/unicode 'http://nbschina.bioon.com.cn/ewebeditor/uploadfile/2007-9/20070918212551306.pdf'
+  pub_year: '2006'
+  publication: Nature reviews genetics
+  related_papers_link: !!python/unicode '/scholar?q=related:-GbFcj4L46IJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: 'Microarray technology: beyond transcript profiling and genotype analysis'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'Y Chen', !!python/unicode ' JF Zhong']
+  cites_link: !!python/unicode '/scholar?cites=10890842947368161310&hl=en&num=100'
+  cites_link_name: Cited by 4
+  diff_versions_link: !!python/unicode '/scholar?cluster=10890842947368161310&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.springerlink.com/index/l6m2824644248173.pdf'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: '&hellip; IN MOLECULAR BIOLOGY-CLIFTON THEN TOTOWA &hellip;'
+  related_papers_link: !!python/unicode '/scholar?q=related:HpByXvULJJcJ:scholar.google.com/&hl=en&num=100'
+  server: Springer
+  title: <b>Microfluidic </b>devices for high-throughput <b>gene </b>expression profiling
+    of single hESC-derived  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Xu', !!python/unicode ' K Chakrabarty']
+  cites_link: !!python/unicode '/scholar?cites=699101739663527330&hl=en&num=100'
+  cites_link_name: Cited by 6
+  diff_versions_link: !!python/unicode '/scholar?cluster=699101739663527330&hl=en&num=100'
+  diff_versions_link_name: All 7 versions
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4261320'
+  potential_PDF_link: !!python/unicode 'http://www.ee.duke.edu/~krish/DAC2007_51.1.pdf'
+  pub_year: '2007'
+  publication: Design Automation Conference, 2007. DAC&#39;07. 44th  &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:oo2ABlS1swkJ:scholar.google.com/&hl=en&num=100'
+  server: ieeexplore.ieee.org
+  title: Integrated droplet routing in the <b>synthesis </b>of <b>microfluidic </b>biochips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'R Davidsson', !!python/unicode ' A Boketoft', !!python/unicode ' J
+      Bristulf', !!python/unicode ' K  ']
+  cites_link: !!python/unicode '/scholar?cites=14249294344108548285&hl=en&num=100'
+  cites_link_name: Cited by 23
+  diff_versions_link: !!python/unicode '/scholar?cluster=14249294344108548285&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://pubs.acs.org/doi/abs/10.1021/ac035249o'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Anal. Chem
+  related_papers_link: !!python/unicode '/scholar?q=related:vaCSwLWpv8UJ:scholar.google.com/&hl=en&num=100'
+  server: pubs.acs.org
+  title: Developments toward a <b>microfluidic </b>system for long-term monitoring
+    of dynamic cellular  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'P Sthler', !!python/unicode ' M Beier', !!python/unicode ' X
+      Gao', !!python/unicode ' JD Hoheisel']
+  cites_link: !!python/unicode '/scholar?cites=14768307268244653105&hl=en&num=100'
+  cites_link_name: Cited by 9
+  diff_versions_link: !!python/unicode '/scholar?cluster=14768307268244653105&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0168165605007625'
+  potential_PDF_link: !!python/unicode 'http://www.dkfz.de/funct_genome/PDF-Files/JBiotechnol-124-2006-206.pdf'
+  pub_year: '2006'
+  publication: Journal of biotechnology
+  related_papers_link: !!python/unicode '/scholar?q=related:McSK8TaR88wJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: 'Another side of genomics: Synthetic biology as a means for the exploitation
+    of whole- &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'AS Xiong', !!python/unicode ' RH Peng', !!python/unicode ' J
+      Zhuang', !!python/unicode ' JG Liu', !!python/unicode ' F  ']
+  cites_link: !!python/unicode '/scholar?cites=5586367533237873844&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=5586367533237873844&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0734975007001164'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Biotechnology Advances
+  related_papers_link: !!python/unicode '/scholar?q=related:tCxrc6zDhk0J:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: '&hellip; -polymerase-cycling-assembly-based chemical <b>gene synthesis</b>:
+    Strategies, methods, and  &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'AW York', !!python/unicode ' SE Kirkland', !!python/unicode ' CL
+      McCormick']
+  cites_link: !!python/unicode '/scholar?cites=2421110201281029981&hl=en&num=100'
+  cites_link_name: Cited by 7
+  diff_versions_link: !!python/unicode '/scholar?cluster=2421110201281029981&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0169409X08000550'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Advanced Drug Delivery Reviews
+  related_papers_link: !!python/unicode '/scholar?q=related:XSduheaCmSEJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: 'Advances in the <b>synthesis </b>of amphiphilic block copolymers via RAFT
+    polymerization:  &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'P Cooley', !!python/unicode ' D Wallace', !!python/unicode ' B
+      Antohe']
+  cites_link: !!python/unicode '/scholar?cites=12326848727815944887&hl=en&num=100'
+  cites_link_name: Cited by 50
+  diff_versions_link: !!python/unicode '/scholar?cluster=12326848727815944887&hl=en&num=100'
+  diff_versions_link_name: All 9 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S153555350400214X'
+  potential_PDF_link: ''
+  pub_year: '2002'
+  publication: Journal of the Association for Laboratory Automation
+  related_papers_link: !!python/unicode '/scholar?q=related:t_pxhZvDEasJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: Applicatons of Ink-Jet Printing Technology to BioMEMS and <b>Microfluidic
+    </b>Systems
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'P Marguet', !!python/unicode ' F Balagadde', !!python/unicode ' C
+      Tan', !!python/unicode ' L You']
+  cites_link: !!python/unicode '/scholar?cites=8628152586502484530&hl=en&num=100'
+  cites_link_name: Cited by 16
+  diff_versions_link: !!python/unicode '/scholar?cluster=8628152586502484530&hl=en&num=100'
+  diff_versions_link_name: All 10 versions
+  journal_href: !!python/unicode 'http://rsif.royalsocietypublishing.org/cgi/content/full/4/15/607'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Journal of the Royal Society Interface
+  related_papers_link: !!python/unicode '/scholar?q=related:MjJZQhBbvXcJ:scholar.google.com/&hl=en&num=100'
+  server: rsif.royalsocietypublishing.org
+  title: 'Biology by design: reduction and <b>synthesis </b>of cellular components
+    and behaviour'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G Jiang', !!python/unicode ' DJ Harrison']
+  cites_link: !!python/unicode '/scholar?cites=12062681867759861187&hl=en&num=100'
+  cites_link_name: Cited by 39
+  diff_versions_link: !!python/unicode '/scholar?cluster=12062681867759861187&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://www.rsc.org/Publishing/Journals/AN/article.asp?doi=b005999o'
+  potential_PDF_link: ''
+  pub_year: '2000'
+  publication: The Analyst
+  related_papers_link: !!python/unicode '/scholar?q=related:wz1fdj9BZ6cJ:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: mRNA isolation in a <b>microfluidic </b>device for eventual integration of
+    cDNA library construction
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'AS Xiong', !!python/unicode ' RH Peng', !!python/unicode ' J
+      Zhuang', !!python/unicode ' F Gao', !!python/unicode ' Y Li', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=9792573720419750988&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=9792573720419750988&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://www3.interscience.wiley.com/journal/119399960/abstract'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: FEMS Microbiology Reviews
+  related_papers_link: !!python/unicode '/scholar?q=related:TNRxWuo15ocJ:scholar.google.com/&hl=en&num=100'
+  server: interscience.wiley.com
+  title: 'Chemical <b>gene synthesis</b>: strategies, softwares, error corrections,
+    and applications'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'MJ Czar', !!python/unicode ' JC Anderson', !!python/unicode ' JS
+      Bader', !!python/unicode ' J Peccoud']
+  cites_link: !!python/unicode '/scholar?cites=6432913283475728572&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=6432913283475728572&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0167779908002850'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Trends in Biotechnology
+  related_papers_link: !!python/unicode '/scholar?q=related:vGh2XIxMRlkJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: <b>Gene synthesis </b>demystified
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JW Engels']
+  cites_link: !!python/unicode '/scholar?cites=5580933225098740852&hl=en&num=100'
+  cites_link_name: Cited by 4
+  diff_versions_link: !!python/unicode '/scholar?cluster=5580933225098740852&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: Angew. Chem., Int. Ed.
+  related_papers_link: !!python/unicode '/scholar?q=related:dIQv_TJ1c00J:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Wang']
+  cites_link: !!python/unicode '/scholar?cites=2397476515083797487&hl=en&num=100'
+  cites_link_name: Cited by 350
+  diff_versions_link: !!python/unicode '/scholar?cluster=2397476515083797487&hl=en&num=100'
+  diff_versions_link_name: All 9 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/abstract/28/16/3011'
+  potential_PDF_link: ''
+  pub_year: '2000'
+  publication: Nucleic Acids Research
+  related_papers_link: !!python/unicode '/scholar?q=related:70PpJjCMRSEJ:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: 'Survey and summary: from DNA biosensors to <b>gene </b>chips'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'AM Taylor', !!python/unicode ' M Blurton-Jones', !!python/unicode ' SW
+      Rhee', !!python/unicode ' DH  ']
+  cites_link: !!python/unicode '/scholar?cites=8328036560199714445&hl=en&num=100'
+  cites_link_name: Cited by 57
+  diff_versions_link: !!python/unicode '/scholar?cluster=8328036560199714445&hl=en&num=100'
+  diff_versions_link_name: All 7 versions
+  journal_href: !!python/unicode 'http://www.nature.com/nmeth/journal/v2/n8/abs/nmeth777.html'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: Nature Methods
+  related_papers_link: !!python/unicode '/scholar?q=related:jYYrryAhk3MJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: A <b>microfluidic </b>culture platform for CNS axonal injury, regeneration
+    and transport
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'H Ye', !!python/unicode ' MC Huang', !!python/unicode ' MH
+      Li', !!python/unicode ' JY Ying']
+  cites_link: !!python/unicode '/scholar?cites=11727975459341296181&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=11727975459341296181&hl=en&num=100'
+  diff_versions_link_name: All 6 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/full/gkp118v1'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Nucleic Acids Research
+  related_papers_link: !!python/unicode '/scholar?q=related:NWKJ9IojwqIJ:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: Experimental analysis of <b>gene </b>assembly with TopDown one-step real-time
+    <b>gene synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G Wu', !!python/unicode ' L Dress', !!python/unicode ' SJ
+      Freeland']
+  cites_link: !!python/unicode '/scholar?cites=6202186123562853023&hl=en&num=100'
+  cites_link_name: Cited by 3
+  diff_versions_link: !!python/unicode '/scholar?cluster=6202186123562853023&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.nature.com/msb/journal/v3/n1/full/msb4100176.html'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Molecular Systems Biology
+  related_papers_link: !!python/unicode '/scholar?q=related:nyLSNWuXElYJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: 'Optimal encoding rules for synthetic genes: the need for a community effort'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'C Weng', !!python/unicode ' C Huang', !!python/unicode ' C
+      Yeh', !!python/unicode ' H Lei', !!python/unicode ' G Lee']
+  cites_link: !!python/unicode '/scholar?cites=3124237677017311420&hl=en&num=100'
+  cites_link_name: Cited by 4
+  diff_versions_link: !!python/unicode '/scholar?cluster=3124237677017311420&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.iop.org/EJ/article/0960-1317/18/3/035019/jmm8_3_035019.pdf'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Journal of Micromechanics and Microengineering
+  related_papers_link: !!python/unicode '/scholar?q=related:vCiCRJ2FWysJ:scholar.google.com/&hl=en&num=100'
+  server: iop.org
+  title: <b>Synthesis </b>of hexagonal gold nanoparticles using a <b>microfluidic
+    </b>reaction system
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'H Esfandyarpour', !!python/unicode ' RW Davis']
+  cites_link: !!python/unicode '/scholar?cites=16718767258211585816&hl=en&num=100'
+  cites_link_name: Cited by 3
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://thebigone.stanford.edu/foundry/about/publications/ICNMM-2007.pdf'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Proc. Of ICN
+  related_papers_link: !!python/unicode '/scholar?q=related:GA8i1D3-BOgJ:scholar.google.com/&hl=en&num=100'
+  server: thebigone.stanford.edu
+  title: '&hellip; -Controlled <b>Microfluidic </b>Chamber with magnetic bead for
+    DNA Sequencing-by-<b>synthesis </b> &hellip;'
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:GA8i1D3-BOgJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'DC Chow', !!python/unicode ' MS Johannes', !!python/unicode ' WK
+      Lee', !!python/unicode ' RL Clark', !!python/unicode ' S  ']
+  cites_link: !!python/unicode '/scholar?cites=5610637840594910124&hl=en&num=100'
+  cites_link_name: Cited by 3
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S1369702105712876'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: Materials Today
+  related_papers_link: !!python/unicode '/scholar?q=related:rDsGvGP93E0J:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: Nanofabrication with biomolecules
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'PK Wong', !!python/unicode ' F Yu', !!python/unicode ' R
+      Sun', !!python/unicode ' CM Ho']
+  cites_link: !!python/unicode '/scholar?cites=9831152243124800035&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4601192'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: 7th IEEE Conference on Nanotechnology, 2007. IEEE &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:Iwo9oOBEb4gJ:scholar.google.com/&hl=en&num=100'
+  server: ieeexplore.ieee.org
+  title: Unraveling <b>gene </b>regulatory networks using an integrated <b>microfluidic
+    </b>platform
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G Charvin', !!python/unicode ' FR Cross', !!python/unicode ' ED
+      Siggia']
+  cites_link: !!python/unicode '/scholar?cites=680702869216178340&hl=en&num=100'
+  cites_link_name: Cited by 3
+  diff_versions_link: !!python/unicode '/scholar?cluster=680702869216178340&hl=en&num=100'
+  diff_versions_link_name: All 8 versions
+  journal_href: !!python/unicode 'http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2194624'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: PLoS ONE
+  related_papers_link: !!python/unicode '/scholar?q=related:pDA4LadXcgkJ:scholar.google.com/&hl=en&num=100'
+  server: pubmedcentral.nih.gov
+  title: A <b>microfluidic </b>device for temporally controlled <b>gene </b>expression
+    and long-term fluorescent  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Xu', !!python/unicode ' K Chakrabarty']
+  cites_link: !!python/unicode '/scholar?cites=6155606330432795997&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=6155606330432795997&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://portal.acm.org/citation.cfm?id=1389089.1389091'
+  potential_PDF_link: !!python/unicode 'http://people.ee.duke.edu/~krish/a11-xu.pdf'
+  pub_year: '2008'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:XbWX_lcbbVUJ:scholar.google.com/&hl=en&num=100'
+  server: portal.acm.org
+  title: Integrated droplet routing and defect tolerance in the <b>synthesis </b>of
+    digital <b>microfluidic </b> &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'BL Fletcher', !!python/unicode ' ED Hullander', !!python/unicode ' AV
+      Melechko', !!python/unicode ' TE  ']
+  cites_link: !!python/unicode '/scholar?cites=14255494289430941723&hl=en&num=100'
+  cites_link_name: Cited by 19
+  diff_versions_link: !!python/unicode '/scholar?cluster=14255494289430941723&hl=en&num=100'
+  diff_versions_link_name: All 6 versions
+  journal_href: !!python/unicode 'http://pubs.acs.org/doi/abs/10.1021/nl0493702'
+  potential_PDF_link: !!python/unicode 'http://tolik.sciencedom.com/publications/papers/pdf_papers/2004_Fletcher_Microarrays.pdf'
+  pub_year: '2004'
+  publication: Nano Letters
+  related_papers_link: !!python/unicode '/scholar?q=related:GxAkA4ew1cUJ:scholar.google.com/&hl=en&num=100'
+  server: pubs.acs.org
+  title: Microarrays of biomimetic cells formed by the controlled <b>synthesis </b>of
+    carbon nanofiber  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'CN Hodge', !!python/unicode ' L Bousse', !!python/unicode ' MR
+      Knapp']
+  cites_link: !!python/unicode '/scholar?cites=17664217090193377823&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://books.google.com/books?hl=en&lr=&id=HIwTBwDxh-gC&oi=fnd&pg=PA303&dq=microfluidic+gene+synthesis&ots=UacqgXz0WO&sig=uFqrBmCLjIbfP7TdzQWKOChJcAM'
+  potential_PDF_link: ''
+  pub_year: '2001'
+  publication: 'High-throughput <b>synthesis</b>: principles and practices'
+  related_papers_link: !!python/unicode '/scholar?q=related:H0pcwNrnI_UJ:scholar.google.com/&hl=en&num=100'
+  server: books.google.com
+  title: <b>Microfluidic </b>analysis, screening, and <b>synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'O Sirimon', !!python/unicode ' OS Charoen']
+  cites_link: !!python/unicode '/scholar?cites=1861459182077204790&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=1861459182077204790&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2531222'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: Biotechnology progress
+  related_papers_link: !!python/unicode '/scholar?q=related:NtmZf0M71RkJ:scholar.google.com/&hl=en&num=100'
+  server: pubmedcentral.nih.gov
+  title: '&hellip;  of flow pattern in microarrays for liquid phase oligonucleotide
+    and peptide <b>synthesis</b>'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'E Gulari', !!python/unicode ' X Gao', !!python/unicode ' X
+      Zhou']
+  cites_link: !!python/unicode '/scholar?cites=4884144833190186734&hl=en&num=100'
+  cites_link_name: Cited by 22
+  diff_versions_link: !!python/unicode '/scholar?cluster=4884144833190186734&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.engin.umich.edu/dept/che/research/gulari/17.pdf'
+  potential_PDF_link: ''
+  pub_year: '2003'
+  publication: Proteomics
+  related_papers_link: !!python/unicode '/scholar?q=related:7k7cNdn3x0MJ:scholar.google.com/&hl=en&num=100'
+  server: engin.umich.edu
+  title: Light directed massively parallel on-chip <b>synthesis </b>of peptide arrays
+    with t-Boc chemistry
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:7k7cNdn3x0MJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'F Su', !!python/unicode ' K Chakrabarty']
+  cites_link: !!python/unicode '/scholar?cites=12396449964528451077&hl=en&num=100'
+  cites_link_name: Cited by 2
+  diff_versions_link: !!python/unicode '/scholar?cluster=12396449964528451077&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://portal.acm.org/citation.cfm?id=1324177.1324178'
+  potential_PDF_link: !!python/unicode 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.125.8743&rep=rep1&type=pdf'
+  pub_year: '2008'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:BT6fQ5AJCawJ:scholar.google.com/&hl=en&num=100'
+  server: portal.acm.org
+  title: High-level <b>synthesis </b>of digital <b>microfluidic </b>biochips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'MM Wang', !!python/unicode ' E Tu', !!python/unicode ' DE
+      Raymond', !!python/unicode ' JM Yang', !!python/unicode ' H  ']
+  cites_link: !!python/unicode '/scholar?cites=13551465102174261293&hl=en&num=100'
+  cites_link_name: Cited by 116
+  diff_versions_link: !!python/unicode '/scholar?cluster=13551465102174261293&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://www.nature.com/nbt/journal/v23/n1/abs/nbt1050.html'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Nature biotechnology
+  related_papers_link: !!python/unicode '/scholar?q=related:LRAzMbZ5ELwJ:scholar.google.com/&hl=en&num=100'
+  server: nature.com
+  title: <b>Microfluidic </b>sorting of mammalian cells by optical force switching
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'NM Toriello', !!python/unicode ' ES Douglas', !!python/unicode ' N
+      Thaitrong', !!python/unicode ' SC  ']
+  cites_link: !!python/unicode '/scholar?cites=1144234878685034590&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=1144234878685034590&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.pnas.org/cgi/content/abstract/105/51/20173'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Proceedings of the National Academy of Sciences
+  related_papers_link: !!python/unicode '/scholar?q=related:XjiiS48j4Q8J:scholar.google.com/&hl=en&num=100'
+  server: National Acad Sciences
+  title: Integrated <b>microfluidic </b>bioprocessor for single-cell <b>gene </b>expression
+    analysis
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Fujii']
+  cites_link: !!python/unicode '/scholar?cites=5787173889525567389&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1002449'
+  potential_PDF_link: ''
+  pub_year: '2002'
+  publication: Underwater Technology, 2002. Proceedings of the  &hellip;
+  related_papers_link: !!python/unicode '/scholar?q=related:nU-Wov0rUFAJ:scholar.google.com/&hl=en&num=100'
+  server: ieeexplore.ieee.org
+  title: <b>Microfluidic </b>devices for advanced in-situ measurement
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'A Russom', !!python/unicode ' P Sethu', !!python/unicode ' D
+      Irimia', !!python/unicode ' MN Mindrinos', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=8930201114606640809&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=8930201114606640809&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://www.clinchem.org/cgi/content/abstract/54/5/891'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Clinical Chemistry
+  related_papers_link: !!python/unicode '/scholar?q=related:qR7teJly7nsJ:scholar.google.com/&hl=en&num=100'
+  server: Am Assoc Clin Chem
+  title: <b>Microfluidic </b>leukocyte isolation for <b>gene </b>expression analysis
+    in critically ill hospitalized  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'R McDaniel', !!python/unicode ' R Weiss']
+  cites_link: !!python/unicode '/scholar?cites=2512340620246558923&hl=en&num=100'
+  cites_link_name: Cited by 55
+  diff_versions_link: !!python/unicode '/scholar?cluster=2512340620246558923&hl=en&num=100'
+  diff_versions_link_name: All 8 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0958166905001023'
+  potential_PDF_link: !!python/unicode 'http://www.plantsci.cam.ac.uk/Haseloff/syntheticbiology/page2/page4/page14/files/page14_16.pdf'
+  pub_year: '2005'
+  publication: Current opinion in biotechnology
+  related_papers_link: !!python/unicode '/scholar?q=related:y6iUsHug3SIJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: 'Advances in synthetic biology: on the path from prototypes to applications'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Kinpara', !!python/unicode ' R Mizuno', !!python/unicode ' Y
+      Murakami', !!python/unicode ' M  ']
+  cites_link: !!python/unicode '/scholar?cites=7194241784917537697&hl=en&num=100'
+  cites_link_name: Cited by 8
+  diff_versions_link: !!python/unicode '/scholar?cluster=7194241784917537697&hl=en&num=100'
+  diff_versions_link_name: All 5 versions
+  journal_href: !!python/unicode 'http://jb.oxfordjournals.org/cgi/content/abstract/136/2/149'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Journal of Biochemistry
+  related_papers_link: !!python/unicode '/scholar?q=related:oTNIYskU12MJ:scholar.google.com/&hl=en&num=100'
+  server: Jpn Biochemical Soc
+  title: A picoliter chamber array for cell-free protein <b>synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'SD O&#39;connor', !!python/unicode ' CD Karp', !!python/unicode ' M
+      Pezzuto', !!python/unicode ' PP Patel', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=2291796962046739259&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.google.com/patents?hl=en&lr=&vid=USPATAPP10165448&id=Jd2HAAAAEBAJ&oi=fnd&dq=microfluidic+gene+synthesis'
+  potential_PDF_link: ''
+  pub_year: '2002'
+  publication: US Patent App. 10/165,448
+  related_papers_link: !!python/unicode '/scholar?q=related:O4MdzDEZzh8J:scholar.google.com/&hl=en&num=100'
+  server: Google Patents
+  title: <b>Microfluidic synthesis </b>devices and methods
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JM Jacobson', !!python/unicode ' DS Kong']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://dspace.mit.edu/handle/1721.1/45755'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:O4MdzDEZzh8J:scholar.google.com/&hl=en&num=100'
+  server: dspace.mit.edu
+  title: <b>Microfluidic gene synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Tian', !!python/unicode ' H Gong', !!python/unicode ' N
+      Sheng', !!python/unicode ' X Zhou', !!python/unicode ' E Gulari', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=6754874506212861720&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.nsti.org/Nanotech2005/showabstract.html?absno=940'
+  potential_PDF_link: ''
+  pub_year: .org
+  publication: ns
+  related_papers_link: !!python/unicode '/scholar?q=related:O4MdzDEZzh8J:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Accurate High-throughput <b>Gene Synthesis </b>Using Programmable DNA <b>Microfluidic
+    </b> &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Tian', !!python/unicode ' H Gong', !!python/unicode ' N
+      Sheng', !!python/unicode ' X Zhou', !!python/unicode ' E Gulari', !!python/unicode ' X ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: ''
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:lA4yKkG5MkgJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'D Kong', !!python/unicode ' PA Carr', !!python/unicode ' JM
+      Jacobson']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=16082954894060008552&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.google.com/patents?hl=en&lr=&vid=USPATAPP11751604&id=Er6lAAAAEBAJ&oi=fnd&dq=microfluidic+gene+synthesis'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: US Patent App. 11/751,604
+  related_papers_link: !!python/unicode '/scholar?q=related:lA4yKkG5MkgJ:scholar.google.com/&hl=en&num=100'
+  server: Google Patents
+  title: <b>Microfluidic</b>-based <b>Gene Synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'M Bode', !!python/unicode ' S Khor', !!python/unicode ' H
+      Ye', !!python/unicode ' MH Li', !!python/unicode ' JY Ying']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=6768123492843412180&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://nar.oxfordjournals.org/cgi/content/full/gkp461v1'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Nucleic Acids Research
+  related_papers_link: !!python/unicode '/scholar?q=related:1FroKnU07V0J:scholar.google.com/&hl=en&num=100'
+  server: Oxford Univ Press
+  title: 'TmPrime: fast, flexible oligonucleotide design software for <b>gene synthesis</b>'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Tian', !!python/unicode ' K Ma', !!python/unicode ' I
+      Saaem']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.rsc.org/Publishing/Journals/MB/article.asp?doi=b822268c'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Molecular BioSystems
+  related_papers_link: !!python/unicode '/scholar?q=related:g4rzLVFzd24J:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: Advancing high-throughput <b>gene synthesis </b>technology
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'MC Huang', !!python/unicode ' MH Li', !!python/unicode ' JY
+      Ying']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.spie.org/x648.html?product_id=810439'
+  potential_PDF_link: ''
+  pub_year: .org
+  publication: sp
+  related_papers_link: !!python/unicode '/scholar?q=related:g4rzLVFzd24J:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Solid-phase purification of <b>gene synthesis </b>products using magnetic
+    beads (Proceedings  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'MP Synthesis', !!python/unicode ' PA Reactor', !!python/unicode ' PGA
+      PGA']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=4270281753501942864&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.lcsciences.com/documents/massively_parallel_oligo_synthesis_C.pdf'
+  potential_PDF_link: ''
+  pub_year: rs A
+  publication: Sensors and Actua
+  related_papers_link: !!python/unicode '/scholar?q=related:UMRQQKEWQzsJ:scholar.google.com/&hl=en&num=100'
+  server: lcsciences.com
+  title: '&hellip;  parallel oligonucleotide <b>synthesis </b>on a microchip based
+    on the Paraflo <b>microfluidics </b> &hellip;'
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:UMRQQKEWQzsJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'MC Huang', !!python/unicode ' MH Li', !!python/unicode ' JY
+      Ying']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=5035823566635809015&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://link.aip.org/link/?PSISDG/7269/72690A/1'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Proceedings of SPIE
+  related_papers_link: !!python/unicode '/scholar?q=related:UMRQQKEWQzsJ:scholar.google.com/&hl=en&num=100'
+  server: link.aip.org
+  title: Solid-phase purification of <b>gene synthesis </b>products using magnetic
+    beads
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'RH Lathrop', !!python/unicode ' SP Hung', !!python/unicode ' R
+      Colman', !!python/unicode ' GW Hatfield']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=11214883077537681506&hl=en&num=100'
+  diff_versions_link_name: All 6 versions
+  journal_href: !!python/unicode 'http://www.google.com/patents?hl=en&lr=&vid=USPATAPP11393043&id=E66XAAAAEBAJ&oi=fnd&dq=microfluidic+gene+synthesis'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: US Patent App. 11/393,043
+  related_papers_link: !!python/unicode '/scholar?q=related:UMRQQKEWQzsJ:scholar.google.com/&hl=en&num=100'
+  server: Google Patents
+  title: <b>Gene synthesis </b>using pooled DNA
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'W Lee', !!python/unicode ' JM Rouillard', !!python/unicode ' E
+      Gulari']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=17211202986824641812&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://aiche.confex.com/aiche/2008/techprogram/P138002.HTM'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: The 2008 Annual Meeting
+  related_papers_link: !!python/unicode '/scholar?q=related:UMRQQKEWQzsJ:scholar.google.com/&hl=en&num=100'
+  server: aiche.confex.com
+  title: '&hellip;  from Oligonucleotide Mixtures by Solid Phase PCR and Assembly
+    PCR In a <b>Microfluidic </b> &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'W Lee', !!python/unicode ' JM Rouillard', !!python/unicode ' E
+      Gulari']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=8911236296063607861&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://aiche.confex.com/aiche/2006/preliminaryprogram/abstract_69275.htm'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: The 2006 Annual Meeting
+  related_papers_link: !!python/unicode '/scholar?q=related:UMRQQKEWQzsJ:scholar.google.com/&hl=en&num=100'
+  server: aiche.confex.com
+  title: Large DNA <b>Synthesis </b>on a Chip with Oligonucleotide Mixtures by Solid
+    Phase Pcr and  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JG Kralj', !!python/unicode ' A Player', !!python/unicode ' H
+      Sedrick', !!python/unicode ' MS Munson', !!python/unicode ' D  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=17434378354996907163&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://www.rsc.org/Publishing/Journals/LC/article.asp?doi=b811714d'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Lab on a Chip
+  related_papers_link: !!python/unicode '/scholar?q=related:m4xZGb5a8_EJ:scholar.google.com/&hl=en&num=100'
+  server: rsc.org
+  title: '&hellip;  of low concentration mRNA samples using beads and <b>microfluidics
+    </b>for global <b>gene </b> &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'YP Ho', !!python/unicode ' HH Chen', !!python/unicode ' KW
+      Leong', !!python/unicode ' TH Wang']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=55792244160173464&hl=en&num=100'
+  diff_versions_link_name: All 4 versions
+  journal_href: !!python/unicode 'http://www.iop.org/EJ/article/0957-4484/20/9/095103/nano9_9_095103.pdf'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Nanotechnology
+  related_papers_link: !!python/unicode '/scholar?q=related:mJVjHsA2xgAJ:scholar.google.com/&hl=en&num=100'
+  server: iop.org
+  title: '&hellip; -dot-mediated fluorescence resonance energy transfer and <b>microfluidics
+    </b>for monitoring DNA &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JG Kralj', !!python/unicode ' A Player', !!python/unicode ' E
+      Kawasaki', !!python/unicode ' D Edelman', !!python/unicode '  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=7077283390652646475&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://aiche.confex.com/aiche/2008/techprogram/P133372.HTM'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: The 2008 Annual Meeting
+  related_papers_link: !!python/unicode '/scholar?q=related:mJVjHsA2xgAJ:scholar.google.com/&hl=en&num=100'
+  server: aiche.confex.com
+  title: <b>Microfluidic </b>Integration of RNA Sample Preparation and Amplification
+    for Global <b>Gene </b> &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'O Srivannavit', !!python/unicode ' M Gulari', !!python/unicode ' Z
+      Hua', !!python/unicode ' X Gao', !!python/unicode ' X Zhou ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S0925400509003992'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: 'Sensors &amp; Actuators: B. Chemical'
+  related_papers_link: !!python/unicode '/scholar?q=related:r9Fmsrk2XwYJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: <b>Microfluidic </b>reactor array device for massively parallel in situ <b>synthesis
+    </b>of oligonucleotides
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'RH Liu', !!python/unicode ' M Lodes', !!python/unicode ' HS
+      Fuji', !!python/unicode ' D Danley', !!python/unicode ' A  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=8658231182890576495&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://books.google.com/books?hl=en&lr=&id=0cTOm6-e4_QC&oi=fnd&pg=PA25&dq=microfluidic+gene+synthesis&ots=ZlPPrlp-7w&sig=jvNGjB4HdS631vdQIVmktyQ1BCg'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: 'Integrated Biochips for DNA Analysis: Biotechnology  &hellip;'
+  related_papers_link: !!python/unicode '/scholar?q=related:bypnN2M3KHgJ:scholar.google.com/&hl=en&num=100'
+  server: books.google.com
+  title: Integrated <b>Microfluidic </b>CustomArray Biochips for <b>Gene </b>Expression
+    and Genotyping  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'WC Cheong', !!python/unicode ' YK Kuan', !!python/unicode ' MH
+      Li', !!python/unicode ' JY Ying']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=18102268958574343246&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://link.aip.org/link/?PSISDG/7269/72690B/1'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: Proceedings of SPIE
+  related_papers_link: !!python/unicode '/scholar?q=related:bypnN2M3KHgJ:scholar.google.com/&hl=en&num=100'
+  server: link.aip.org
+  title: Rapid prototyping of multi-level polydimethylsiloxane-based <b>microfluidic
+    </b>devices
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Xu', !!python/unicode ' K Chakrabarty', !!python/unicode ' F
+      Su']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=17927850126429874233&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4470204'
+  potential_PDF_link: !!python/unicode 'http://people.ee.duke.edu/~krish/Xu_TBCAS_2008.pdf'
+  pub_year: .org
+  publication: ieeexplore.ie
+  related_papers_link: !!python/unicode '/scholar?q=related:OWhLRLSEzPgJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Defect-Aware High-Level <b>Synthesis </b>and Module Placement for <b>Microfluidic
+    </b>Biochips
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'X Gao', !!python/unicode ' TX Houston']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://acs.confex.com/acs/sewrm05/techprogram/P23664.HTM'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:OWhLRLSEzPgJ:scholar.google.com/&hl=en&num=100'
+  server: acs.confex.com
+  title: Picoarray <b>Synthesis </b>of Oligonucleotides and DNA. a Significant Component
+    of Emerging  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'YS Dufour']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://scholar.lib.vt.edu/theses/available/etd-08012004-211029/'
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:OWhLRLSEzPgJ:scholar.google.com/&hl=en&num=100'
+  server: scholar.lib.vt.edu
+  title: Experimental Methods in Support of the Development of a Computational Model
+    for Quorum  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JP Puccinelli', !!python/unicode ' DJ Beebe']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.springerlink.com/index/j22x757312p53243.pdf'
+  potential_PDF_link: ''
+  pub_year: nger
+  publication: Sp
+  related_papers_link: !!python/unicode '/scholar?q=related:2exnYh1ngjIJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: High Throughput Screening Using <b>Microfluidics</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G FA']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.lavoisier.fr/notice/fr421766.html'
+  potential_PDF_link: ''
+  pub_year: r.fr
+  publication: lavois
+  related_papers_link: !!python/unicode '/scholar?q=related:2exnYh1ngjIJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Biological applications of <b>microfluidics</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JM Jacobson', !!python/unicode ' B Hsu']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=16440623346839212403&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://dspace.mit.edu/handle/1721.1/35066'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:c1FY6tPTKOQJ:scholar.google.com/&hl=en&num=100'
+  server: dspace.mit.edu
+  title: Fabrication and control of <b>microfluidic </b>devices for on-chip <b>synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'MJ Bassetti']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://gradworks.umi.com/32/94/3294069.html'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:c1FY6tPTKOQJ:scholar.google.com/&hl=en&num=100'
+  server: gradworks.umi.com
+  title: Towards an inexpensive, high-throughput method of automated <b>gene synthesis</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'BP Engelward']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=9156861137865045125&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://dspace.mit.edu/bitstream/handle/1721.1/37961/144608637.pdf?sequence=1'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:hXQGlLC0E38J:scholar.google.com/&hl=en&num=100'
+  server: dspace.mit.edu
+  title: <b>Synthesis </b>and error correction methods in <b>gene </b>fabrication
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JFA Ferrando']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=4015105242890880875&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://genome.imim.es/~jabril/SEMINARS/GroupSessions/DNA_CHIPS.ps.gz'
+  potential_PDF_link: ''
+  pub_year: m.es
+  publication: genome.i
+  related_papers_link: !!python/unicode '/scholar?q=related:a8dRCvKEuDcJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Overview on New DNA Technologies
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:a8dRCvKEuDcJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'RH Liu', !!python/unicode ' M Lodes', !!python/unicode ' HS
+      Fuji', !!python/unicode ' D Danley', !!python/unicode ' A  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=9669289702209588139&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://www.springerlink.com/index/jmj8767735421728.pdf'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: '&hellip; , Integrated Analytical Systems, Volume. ISBN 978-0- &hellip;'
+  related_papers_link: !!python/unicode '/scholar?q=related:q4uLCsE3MIYJ:scholar.google.com/&hl=en&num=100'
+  server: Springer
+  title: '&hellip;  <b>Microfluidic </b>Devices for Automated Microarray-Based <b>Gene
+    </b>Expression and Genotyping  &hellip;'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'JW Engels']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www3.interscience.wiley.com/journal/112140157/abstract'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: Angewandte Chemie International Edition
+  related_papers_link: !!python/unicode '/scholar?q=related:986eC8SKH6kJ:scholar.google.com/&hl=en&num=100'
+  server: interscience.wiley.com
+  title: <b>Gene Synthesis </b>on Microchips I thank A. Klopffer, K. Strube, and C.
+    Engels for technical  &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'S Gulati', !!python/unicode ' V Rouilly', !!python/unicode ' X
+      Niu', !!python/unicode ' J Chappell', !!python/unicode ' RI  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=3905371279489113802&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://rsif.royalsocietypublishing.org/content/early/2009/05/19/rsif.2009.0083.focus.full'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Journal of The Royal Society Interface
+  related_papers_link: !!python/unicode '/scholar?q=related:986eC8SKH6kJ:scholar.google.com/&hl=en&num=100'
+  server: rsif.royalsocietypublishing.org
+  title: Opportunities for <b>microfluidic </b>technologies in synthetic biology
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'S Mueller', !!python/unicode ' JR Coleman', !!python/unicode ' E
+      Wimmer']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=7540221012988560721&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://linkinghub.elsevier.com/retrieve/pii/S1074552109000817'
+  potential_PDF_link: ''
+  pub_year: '2009'
+  publication: Chemistry &amp; Biology
+  related_papers_link: !!python/unicode '/scholar?q=related:986eC8SKH6kJ:scholar.google.com/&hl=en&num=100'
+  server: Elsevier
+  title: '&hellip;  Biology: A Viral View of Genetic Engineering through De Novo <b>Gene
+    </b>and Genome <b>Synthesis</b>'
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G Tigyi']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=16987768448898259392&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.stormingmedia.us/68/6866/A686684.pdf'
+  potential_PDF_link: ''
+  pub_year: '2008'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:986eC8SKH6kJ:scholar.google.com/&hl=en&num=100'
+  server: Storming Media
+  title: Novel Methods for Imaging PET Biomarkers and <b>Gene </b>Therapy of Cancer
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'B Hsu', !!python/unicode ' AR Reserved', !!python/unicode ' JM
+      Jacobson', !!python/unicode ' CA Ross']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=218559765137509863&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://dspace.mit.edu/bitstream/handle/1721.1/35066/71229963-MIT.pdf.txt?sequence=3'
+  potential_PDF_link: ''
+  pub_year: .edu
+  publication: dspace.m
+  related_papers_link: !!python/unicode '/scholar?q=related:5802y_J6CAMJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: MAS8ACHUSETTS INSTITUTE OF TECHNOLOGY JUN 1 5 2006 LIBRARIES Background and
+    &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'G APPLICATIONS', !!python/unicode ' A APPLICATIONS',
+    !!python/unicode ' T  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=15880032801164380661&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'https://www.lcsciences.com/~lcscienc/documents/oligomix_brochure.pdf'
+  potential_PDF_link: ''
+  pub_year: .com
+  publication: lcscienc
+  related_papers_link: !!python/unicode '/scholar?q=related:9Un0VrI1YdwJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: OligoMix for Genomics Discoveries
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:9Un0VrI1YdwJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+- !paper
+  authors: [!!python/unicode 'Q Mei']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=6807033084094293026&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.csa.com/partners/viewrecord.php?requester=gs&collection=TRD&recid=200905160044112SO'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:9Un0VrI1YdwJ:scholar.google.com/&hl=en&num=100'
+  server: csa.com
+  title: Development and applications of miniaturized protein expression systems
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'OM FAQS']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: ''
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:Ez7l88UT9osJ:scholar.google.com/&hl=en&num=100'
+  server: csa.com
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Park']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=1903366986000715310&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://dspace.mit.edu/bitstream/handle/1721.1/32931/62776118.pdf?sequence=1'
+  potential_PDF_link: ''
+  pub_year: '2005'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:Lk7HdTAeahoJ:scholar.google.com/&hl=en&num=100'
+  server: dspace.mit.edu
+  title: Designing Methods for Error Correction in <b>Gene </b>Fabrication
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'D ALTEROVITZ', !!python/unicode ' MSR BENSON', !!python/unicode ' DRM  ']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: ''
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:thr9dVJYyT4J:scholar.google.com/&hl=en&num=100'
+  server: dspace.mit.edu
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'T Honda', !!python/unicode ' M Miyazaki', !!python/unicode ' H
+      Nakamura', !!python/unicode ' H Maeda']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.springerlink.com/index/l308322g75406758.pdf'
+  potential_PDF_link: ''
+  pub_year: '2007'
+  publication: IFMBE PROCEEDINGS
+  related_papers_link: !!python/unicode '/scholar?q=related:0xyFgavLNR8J:scholar.google.com/&hl=en&num=100'
+  server: Springer
+  title: Biopolymer <b>synthesis </b>in a <b>microfluidic </b>system
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'HW Wu', !!python/unicode ' YC Huang', !!python/unicode ' CL
+      Wu', !!python/unicode ' GB Lee']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: !!python/unicode 'http://www.springerlink.com/index/v2117x627w27388k.pdf'
+  potential_PDF_link: ''
+  pub_year: dics
+  publication: <b>Microfluidics </b>and Nanofl
+  related_papers_link: !!python/unicode '/scholar?q=related:hRqljFIDsJsJ:scholar.google.com/&hl=en&num=100'
+  server: Springer
+  title: Exploitation of a <b>microfluidic </b>device capable of generating size-tunable
+    droplets for <b>gene </b> &hellip;
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'A MICROFLUIDICS']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=16635027227557311734&hl=en&num=100'
+  diff_versions_link_name: All 2 versions
+  journal_href: !!python/unicode 'http://www.the-scientist.com/yr2003/jun/lcprofile_030603.html'
+  potential_PDF_link: ''
+  pub_year: .com
+  publication: the-scienti
+  related_papers_link: !!python/unicode '/scholar?q=related:9jSBlyB92-YJ:scholar.google.com/&hl=en&num=100'
+  server: ''
+  title: Macro Opportunities in <b>Microfluidics</b>
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'DNA CHARACTERIZATION']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: ''
+  diff_versions_link_name: ''
+  journal_href: ''
+  potential_PDF_link: ''
+  pub_year: '2004'
+  publication: Journal of Biomolecular Techniques
+  related_papers_link: !!python/unicode '/scholar?q=related:9jSBlyB92-YJ:scholar.google.com/&hl=en&num=100'
+  server: ABRF
+  title: ''
+  view_as_html_link: ''
+- !paper
+  authors: [!!python/unicode 'J Liu']
+  cites_link: !!python/unicode '/scholar?cites=2291796962046739259&hl=en&num=100'
+  cites_link_name: Cited by 1
+  diff_versions_link: !!python/unicode '/scholar?cluster=3126287705016735549&hl=en&num=100'
+  diff_versions_link_name: All 3 versions
+  journal_href: !!python/unicode 'http://thebigone.stanford.edu/quake/theses/JianThesisA1.pdf'
+  potential_PDF_link: ''
+  pub_year: '2006'
+  publication: ''
+  related_papers_link: !!python/unicode '/scholar?q=related:PZcxmxrOYisJ:scholar.google.com/&hl=en&num=100'
+  server: thebigone.stanford.edu
+  title: <b>MICROFLUIDIC </b>DEVICES FOR GENENTIC ANAYLSIS AND <b>GENE </b>EXPRESSION
+    STUDIES
+  view_as_html_link: !!python/unicode 'http://66.102.1.104/scholar?q=cache:PZcxmxrOYisJ:scholar.google.com/+microfluidic+gene+synthesis&hl=en&num=100'
+
