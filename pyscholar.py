@@ -107,13 +107,17 @@ if status==200:
                     author_data = ''.join(BeautifulSoup(author_data).findAll(text=True))
                     author_data = author_data.replace("&hellip;","") #replace ellipses
                     authors = author_data.split(",")
-                    publication = content_array[1][:-6]
-                    #last four digits should be a year
-                    pub_year = content_array[1][-4:]
-                    server = ""
-                    if len(content_array) > 2:
-                        server = content_array[2]
-                        #print "server = ", server
+                    publication = ""
+                    pub_year = ""
+                    if len(content_array) > 1:
+                        if not len(content_array[1]) <= 6:
+                            publication = content_array[1][:-6]
+                        #last four digits should be a year
+                        pub_year = content_array[1][-4:]
+                        server = ""
+                        if len(content_array) > 2:
+                            server = content_array[2]
+                            #print "server = ", server
                     #print "authors = ", author_data
                     #print "publisher = ", publication
                     #print "publication year = ", pub_year
