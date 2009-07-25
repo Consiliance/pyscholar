@@ -34,10 +34,10 @@ class ScienceDirect(yaml.YAMLObject):
             return "journalArticle"
         return False
     def doWeb(self, doc, url):
-        if type(doc) == type(""): #then it's not BeautifulSoup
+        if type(doc) == type("huh"): #then it's not BeautifulSoup
             document = BSXPathEvaluator(doc)
         else: document = doc
-        if doc.evaluate('//*[contains(@src, "exportarticle_a.gif")]', doc, None, XPathResult.ANY_TYPE, None).iterateNext():
+        if document.evaluate("//*[contains(@src, \"exportarticle_a.gif\")]", doc, None, XPathResult.ANY_TYPE, None).iterateNext():
             articles = []
             if (self.detectWeb(doc, url) == "multiple"):
                 #search page
@@ -66,5 +66,7 @@ class ScienceDirect(yaml.YAMLObject):
             if len(articles) == 0:
                 print "ERROR: no items were found"
                 return
+            print "articles = ", articles
+            print "result_sets = ", result_sets
         return
 

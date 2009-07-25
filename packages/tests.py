@@ -20,6 +20,15 @@ class TestScienceDirect(unittest.TestCase):
         doc = contents
         self.assertTrue(sci.detectWeb(doc, url)== "journalArticle")
         return
+    def test_doWeb(self):
+        sci = classes.ScienceDirect()
+        some_file = open("../tests/science-direct-search-results.html", "r")
+        contents = some_file.read()
+        some_file.close()
+        url = "http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=list&_ArticleListID=966440345&_sort=r&view=c&_acct=C000059713&_version=1&_urlVersion=0&_userid=108429&md5=68c788df065c832e7749a7ae42d0261e"
+        doc = contents
+        print sci.doWeb(doc, url)
+        return
 
 if __name__ == '__main__':
     unittest.main()
