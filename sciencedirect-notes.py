@@ -42,8 +42,8 @@ for result in results:
     #paper_link
     #related_articles_href
     #pdf_link
-    print "paper_title = ", paper_title
-    print "paper_link = ", paper_link
+    print "paper_title = ", paper_title.encode("utf-8","backslashreplace")
+    print "paper_link = ", paper_link.decode("iso-8859-15")
     print "related_link = ", related_articles_href
     print "pdf = ", pdf_link
 
