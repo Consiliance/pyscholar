@@ -13,3 +13,9 @@ def gsearch(q='',num=10,datelimit=''):
             returninfo.append({'href':a.values()[0],'text':a.text})
         return returninfo
 
+def gs(xpath):
+    returninfo = []
+    content = (open("tests/science-direct-search-results.html","r")).read()
+    tree = et.fromstring(content, et.HTMLParser())
+    links = tree.xpath(xpath)
+    return links
