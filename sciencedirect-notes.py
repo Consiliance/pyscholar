@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from gsearch import *
+import gsearch
 import re
 
 #related articles href =
@@ -16,7 +16,7 @@ import re
 #    paper_link = paper_temp.items()[0][1]
 
 
-results = gs("/html/body/div[1]/div/div[@id='sdBody']/div/div[@id='rightCol']/div/div[@id='searchResults']/div[@id='bodyMainResults']/table")
+results = gsearch.gs("/html/body/div[1]/div/div[@id='sdBody']/div/div[@id='rightCol']/div/div[@id='searchResults']/div[@id='bodyMainResults']/table")
 number_of_results = len(results)
 for result in results:
     paper_title = ""
