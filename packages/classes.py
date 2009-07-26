@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import yaml
 import re
+import lxml.etree
+
 from BeautifulSoup import BeautifulSoup
 #import BSXPath.BSXPathEvaluator, BSXPath.XPathResult
 from BSXPath import BSXPathEvaluator, XPathResult
@@ -35,9 +37,14 @@ class ScienceDirect(yaml.YAMLObject):
         return False
     def doWeb(self, doc, url):
         if type(doc) == type("huh"): #then it's not BeautifulSoup
+            tree = lxml.etree.fromstring(doc, lxml.etree.HTMLParser())
+            links = tree.xpath("/html/body/div[1]/div/div[@id='sdBody']/div/div[@id='rightCol']/div/div[@id='searchResults']/div[@id='bodyMainResults']")
+            #print "links = ", links
+            #for each in links:
+            #    print type(links[0])
             document = BSXPathEvaluator(doc)
         else: document = doc
-        if document.evaluate("//*[contains(@src, \"exportarticle_a.gif\")]", doc, None, XPathResult.ANY_TYPE, None).iterateNext():
+        if document.evaluate("//*[contains(@src, \"exportarticle_a.gif\")]", document, None, XPathResult.ANY_TYPE, None):
             articles = []
             if (self.detectWeb(doc, url) == "multiple"):
                 #search page
@@ -47,19 +54,26 @@ class ScienceDirect(yaml.YAMLObject):
                     xpath = '//table[@class="resultRow"]/tbody/tr/td[2]/a'
                 else:
                     xpath = '//div[@class="font3"][@id="bodyMainResults"]/table/tbody/tr/td[2]/a'
-                rows = doc.evaluate(xpath, doc, None, XPathResult.ANY_TYPE, None)
+                rows = document.evaluate(xpath, document, None, XPathResult.ANY_TYPE, None)
+                print rows
                 next_row = None
-                for next_row in rows.iterateNext():
+                #for next_row in rows.iterateNext():
+                isTrue = True
+                next_row = rows
+                while isTrue:
+                    try: next_row=rows.iterateNext()
+                    except IndexError: isTrue=False
                     #while (next_row = rows.iterateNext()):
-                    title = next_row.textContent
-                    link = next_row.href
+                    print next_row.__dict__
+                    title = "some title here" #next_row.text
+                    link = "some href here" #next_row.href
                     if not re.match("PDF \(",title) and not re.match("Related Articles",title): items[link] = title;
                 #items = zotero.SelectItems(items)
                 #let's assume we want all of them
-                [articles.push(i) for i in items]
+                [articles.append(i) for i in items]
                 result_sets = []
                 for article in articles:
-                    result_sets.push({'article':article})
+                    result_sets.append({'article':article})
             else:
                 articles = [url]
                 return_sets = [{"currentdoc":doc}]
@@ -68,5 +82,5 @@ class ScienceDirect(yaml.YAMLObject):
                 return
             print "articles = ", articles
             print "result_sets = ", result_sets
-        return
+        return result_sets #return all articles or the currentdoc in a dict for stuff that we want to grab
 
