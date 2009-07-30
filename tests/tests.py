@@ -28,7 +28,7 @@ class TestGoogleScholar(unittest.TestCase):
         #TODO: test pyscholar.packages.GoogleScholar() with ezproxy proxy
         pass
  
- class TestScienceDirect(unittest.TestCase):
+class TestScienceDirect(unittest.TestCase):
     def test_sciencedirect_search(self):
         num_results = 50
         
