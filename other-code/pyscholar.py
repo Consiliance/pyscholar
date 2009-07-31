@@ -16,8 +16,6 @@ class Paper(yaml.YAMLObject):
         self.title, self.journal_href, self.potential_PDF_link, self.cites_link, self.cites_link_name, self.diff_versions_link, self.diff_versions_link_name, self.related_papers_link, self.view_as_html_link, self.authors, self.publication, self.pub_year, self.server = title, journal_href, potential_PDF_link, cites_link, cites_link_name, diff_versions_link, diff_versions_link_name, related_papers_link, view_as_html_link, authors, publication, pub_year, server
     def __repr__(self):
         return "Paper(title=\"%s\", journal_href=\"%s\", potential_PDF_link=\"%s\", cites_link=\"%s\", cites_link_name=\"%s\", diff_versions_link=\"%s\", diff_versions_link_name=\"%s\", related_papers_link=\"%s\", view_as_html_link=\"%s\", authors=\"%s\", publication=\"%s\", pub_year=\"%s\", server=\"%s\")" % (self.title, self.journal_href, self.potential_PDF_link, self.cites_link, self.cites_link_name, self.diff_versions_link, self.diff_versions_link_name, self.related_papers_link, self.view_as_html_link, self.authors, self.publication, self.pub_year, self.server) 
-    def yaml_repr(self):
-        return "title: \"%s\"\njournal_href: \"%s\"\npotential_PDF_link: \"%s\"\ncites_link: \"%s\"\ncites_link_name: \"%s\"\ndiff_versions_link: \"%s\"\ndiff_versions_link_name: \"%s\"\nrelated_papers_link: \"%s\"\nview_as_html_link: \"%s\"\nauthors: \"%s\"\npublication: \"%s\"\npub_year: \"%s\"\nserver: \"%s\")" % (self.title, self.journal_href, self.potential_PDF_link, self.cites_link, self.cites_link_name, self.diff_versions_link, self.diff_versions_link_name, self.related_papers_link, self.view_as_html_link, self.authors, self.publication, self.pub_year, self.server) 
 
 SEARCH_HOST = "scholar.google.com"
 SEARCH_BASE_URL = "/scholar"
@@ -49,9 +47,12 @@ if status==200:
 
         blah = record.find(name=re.compile("h3"))
         blah2 = record.find(name=re.compile("form"))
-        if not blah == None and blah2 == None:
+        #blah = True
+        #blah2 = True
+        if True:
             #process one of the results
             #print "record = ", record
+            
             paper_title = ""
             journal_href = "" #link to something like sciencedirect
             for stuff in record('a'):
@@ -125,6 +126,7 @@ if status==200:
             #what now?
             diff_versions_link=cluster_link
             diff_versions_link_name=cluster_link_name
+            print "what?"
             my_paper = Paper(title=paper_title, journal_href=journal_href, potential_PDF_link=potential_PDF_link, cites_link=cites_link, cites_link_name=cites_link_name, diff_versions_link=diff_versions_link, diff_versions_link_name=diff_versions_link_name, related_papers_link=related_link, view_as_html_link=view_as_html_link, authors=authors, publication=publication, pub_year=pub_year, server=server)
             papers.append(my_paper)
 
