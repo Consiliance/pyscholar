@@ -5,3 +5,4 @@ After chatting with Bruce D'Arcus <bdarcus@gmail.com> on zotero-dev@googlegroups
 (1) scraper metadata file format for mapping xpaths to particular attributes in particular classes
 
 (2) messy data cleanup utils: for cleaning up the results of scraping, common parsing utilities.
+    - perl/python-style regular expressions
