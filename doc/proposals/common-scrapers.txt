@@ -1,0 +1,7 @@
+2009-07-30
+
+After chatting with Bruce D'Arcus <bdarcus@gmail.com> on zotero-dev@googlegroups.com, we came up with an idea for how to format scraping metadata.
+
+(1) scraper metadata file format for mapping xpaths to particular attributes in particular classes
+
+(2) messy data cleanup utils: for cleaning up the results of scraping, common parsing utilities.
