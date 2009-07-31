@@ -1,4 +1,21 @@
-mesencymal stem cells
-cardiomyocyte protein markers
-notch signaling
-inducing stem cell differentation
+Date: 7-30-09
+Requester: drazak
+Query: mesenchymal stem cells
+Number: all
+
+Date: 7-30-09
+Requester: drazak
+Query: cardiomyocyte protein markers
+Number: all
+
+Date: 7-30-09
+Requester: drazak
+Query: notch signaling pathways
+Number: all
+
+Date: 7-30-09
+Requester: drazak
+Query: inducing stem cell differentation
+Number: all
+
+
