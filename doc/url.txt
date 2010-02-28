@@ -1,1 +1,2 @@
 http://rednails.rubyforge.org/
+http://code.google.com/p/python-spidermonkey/
